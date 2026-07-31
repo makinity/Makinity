@@ -14,8 +14,8 @@
   <a href="https://github.com/makinity">
     <img src="https://komarev.com/ghpvc/?username=makinity&label=Profile%20Views&color=1683DF&style=flat" alt="Profile Views" />
   </a>
-  <img src="https://img.shields.io/badge/🎓-BSIT-4th_Year-1683DF?style=flat&labelColor=111f42" alt="Education" />
-  <img src="https://img.shields.io/badge/📍-Philippines-93CCE9?style=flat&labelColor=111f42" alt="Location" />
+  <img src="https://img.shields.io/badge/BSIT-4th_Year-1683DF?style=flat&labelColor=111f42" alt="Education" />
+  <img src="https://img.shields.io/badge/Philippines-93CCE9?style=flat&labelColor=111f42" alt="Location" />
   <img src="https://img.shields.io/badge/🟢-Open%20to%20Work-22C55E?style=flat&labelColor=111f42" alt="Open to Work" />
 </p>
 
