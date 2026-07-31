@@ -546,5 +546,9 @@ Expanding personal brand
 </p>
 
 <p align="center">
+  <img src="assets/cat-dance.webp" alt="Dancing Cat" width="150" />
+</p>
+
+<p align="center">
   <sub>⚡ Built with precision · Powered by passion · Driven by purpose</sub>
 </p>
