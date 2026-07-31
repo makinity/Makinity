@@ -30,9 +30,7 @@
 <table>
 <tr>
 <td width="120" align="center">
-  <img src="https://github.com/makinity.png" width="100" style="border-radius: 50%; border: 3px solid #1683DF; box-shadow: 0 0 20px rgba(22,131,223,0.3);" alt="Mark" />
-  <br/><br/>
-  <img src="assets/cat-dance.webp" alt="Dancing Cat" width="80" />
+  <img src="assets/cat-dance.webp" alt="Dancing Cat" width="100" style="border-radius: 12px;" />
 </td>
 <td>
 
