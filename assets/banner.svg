@@ -22,15 +22,24 @@
     </linearGradient>
     
     <radialGradient id="orbGrad1" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#1683DF;stop-opacity:0.3" />
+      <stop offset="0%" style="stop-color:#1683DF;stop-opacity:0.35" />
       <stop offset="100%" style="stop-color:#1683DF;stop-opacity:0" />
     </radialGradient>
     
     <radialGradient id="orbGrad2" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.2" />
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.25" />
       <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:0" />
     </radialGradient>
-    
+
+    <!-- Moving glow gradient for sweep effect -->
+    <linearGradient id="sweepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0" />
+      <stop offset="40%" style="stop-color:#00d4ff;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#00d4ff;stop-opacity:0.15" />
+      <stop offset="60%" style="stop-color:#00d4ff;stop-opacity:0" />
+      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:0" />
+    </linearGradient>
+
     <filter id="glow">
       <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
       <feMerge>
@@ -47,9 +56,17 @@
       </feMerge>
     </filter>
 
+    <filter id="bigGlow">
+      <feGaussianBlur stdDeviation="15" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
     <!-- Grid pattern -->
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1683DF" stroke-width="0.3" opacity="0.15"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1683DF" stroke-width="0.3" opacity="0.12"/>
     </pattern>
   </defs>
   
@@ -58,80 +75,175 @@
   
   <!-- Grid overlay -->
   <rect width="1280" height="400" fill="url(#grid)" opacity="0.5"/>
-  
-  <!-- Ambient orbs -->
-  <circle cx="200" cy="100" r="180" fill="url(#orbGrad1)"/>
-  <circle cx="1100" cy="300" r="200" fill="url(#orbGrad2)"/>
-  <circle cx="640" cy="200" r="150" fill="url(#orbGrad1)" opacity="0.3"/>
-  
-  <!-- Decorative circuit lines -->
-  <g stroke="#1683DF" stroke-width="0.5" opacity="0.2" fill="none">
-    <path d="M 0,300 Q 200,250 400,280 T 800,260 T 1280,300"/>
-    <path d="M 0,320 Q 300,270 600,300 T 1280,280"/>
-    <path d="M 0,100 Q 200,130 400,90 T 800,110 T 1280,80"/>
+
+  <!-- ═══ ANIMATED ORB 1 — pulsing blue (left) ═══ -->
+  <circle cx="200" cy="120" r="160" fill="url(#orbGrad1)" opacity="0.6">
+    <animate attributeName="r" values="160;190;160" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.6;0.9;0.6" dur="4s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- ═══ ANIMATED ORB 2 — pulsing cyan (right) ═══ -->
+  <circle cx="1080" cy="280" r="180" fill="url(#orbGrad2)" opacity="0.5">
+    <animate attributeName="r" values="180;210;180" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.5;0.8;0.5" dur="5s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- ═══ ANIMATED ORB 3 — slow pulse center ═══ -->
+  <circle cx="640" cy="200" r="120" fill="url(#orbGrad1)" opacity="0.25">
+    <animate attributeName="r" values="120;160;120" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.25;0.45;0.25" dur="6s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- ═══ SWEEP LIGHT — moves across the banner ═══ -->
+  <rect x="-400" y="0" width="400" height="400" fill="url(#sweepGrad)" opacity="0.8">
+    <animate attributeName="x" values="-400;1280" dur="4s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- ═══ FLOATING PARTICLES ═══ -->
+  <g fill="#1683DF">
+    <!-- Particle 1 -->
+    <circle cx="100" cy="80" r="1.5" opacity="0">
+      <animate attributeName="opacity" values="0;0.6;0" dur="3s" repeatCount="indefinite" begin="0s" />
+      <animate attributeName="cy" values="80;60;80" dur="3s" repeatCount="indefinite" begin="0s" />
+    </circle>
+    <!-- Particle 2 -->
+    <circle cx="300" cy="120" r="1" opacity="0">
+      <animate attributeName="opacity" values="0;0.5;0" dur="4s" repeatCount="indefinite" begin="0.5s" />
+      <animate attributeName="cy" values="120;95;120" dur="4s" repeatCount="indefinite" begin="0.5s" />
+    </circle>
+    <!-- Particle 3 -->
+    <circle cx="500" cy="350" r="1.5" opacity="0">
+      <animate attributeName="opacity" values="0;0.6;0" dur="3.5s" repeatCount="indefinite" begin="1s" />
+      <animate attributeName="cy" values="350;330;350" dur="3.5s" repeatCount="indefinite" begin="1s" />
+    </circle>
+    <!-- Particle 4 -->
+    <circle cx="700" cy="100" r="1" opacity="0">
+      <animate attributeName="opacity" values="0;0.5;0" dur="4.5s" repeatCount="indefinite" begin="1.5s" />
+      <animate attributeName="cy" values="100;75;100" dur="4.5s" repeatCount="indefinite" begin="1.5s" />
+    </circle>
+    <!-- Particle 5 -->
+    <circle cx="900" cy="300" r="1.5" opacity="0">
+      <animate attributeName="opacity" values="0;0.6;0" dur="3s" repeatCount="indefinite" begin="2s" />
+      <animate attributeName="cy" values="300;275;300" dur="3s" repeatCount="indefinite" begin="2s" />
+    </circle>
+    <!-- Particle 6 -->
+    <circle cx="1100" cy="80" r="1" opacity="0">
+      <animate attributeName="opacity" values="0;0.5;0" dur="4s" repeatCount="indefinite" begin="0.8s" />
+      <animate attributeName="cy" values="80;55;80" dur="4s" repeatCount="indefinite" begin="0.8s" />
+    </circle>
+    <!-- Particle 7 -->
+    <circle cx="1200" cy="350" r="1.5" opacity="0">
+      <animate attributeName="opacity" values="0;0.6;0" dur="3.5s" repeatCount="indefinite" begin="1.2s" />
+      <animate attributeName="cy" values="350;325;350" dur="3.5s" repeatCount="indefinite" begin="1.2s" />
+    </circle>
+    <!-- Particle 8 -->
+    <circle cx="150" cy="280" r="1" opacity="0">
+      <animate attributeName="opacity" values="0;0.4;0" dur="5s" repeatCount="indefinite" begin="0.3s" />
+      <animate attributeName="cy" values="280;260;280" dur="5s" repeatCount="indefinite" begin="0.3s" />
+    </circle>
   </g>
-  
-  <!-- Subtle tech dots -->
-  <g fill="#1683DF" opacity="0.3">
-    <circle cx="100" cy="80" r="1.5"/>
-    <circle cx="250" cy="150" r="1"/>
-    <circle cx="400" cy="60" r="1.5"/>
-    <circle cx="550" cy="350" r="1"/>
-    <circle cx="700" cy="120" r="1.5"/>
-    <circle cx="850" cy="300" r="1"/>
-    <circle cx="1000" cy="80" r="1.5"/>
-    <circle cx="1150" cy="200" r="1"/>
-    <circle cx="1200" cy="350" r="1.5"/>
+
+  <!-- ═══ CYAN PARTICLES (accent) ═══ -->
+  <g fill="#00d4ff">
+    <circle cx="250" cy="200" r="1" opacity="0">
+      <animate attributeName="opacity" values="0;0.4;0" dur="4s" repeatCount="indefinite" begin="0.7s" />
+      <animate attributeName="cy" values="200;180;200" dur="4s" repeatCount="indefinite" begin="0.7s" />
+    </circle>
+    <circle cx="750" cy="350" r="1.5" opacity="0">
+      <animate attributeName="opacity" values="0;0.5;0" dur="3.5s" repeatCount="indefinite" begin="1.3s" />
+      <animate attributeName="cy" values="350;330;350" dur="3.5s" repeatCount="indefinite" begin="1.3s" />
+    </circle>
+    <circle cx="1050" cy="150" r="1" opacity="0">
+      <animate attributeName="opacity" values="0;0.4;0" dur="4.5s" repeatCount="indefinite" begin="0.2s" />
+      <animate attributeName="cy" values="150;130;150" dur="4.5s" repeatCount="indefinite" begin="0.2s" />
+    </circle>
   </g>
-  
-  <!-- Center glow accent -->
-  <ellipse cx="640" cy="200" rx="350" ry="80" fill="url(#glowGrad)" opacity="0.08"/>
-  
-  <!-- Name text -->
+
+  <!-- ═══ HORIZONTAL CIRCUIT LINES — subtle movement ═══ -->
+  <g stroke="#1683DF" stroke-width="0.5" fill="none">
+    <path d="M 0,300 Q 200,250 400,280 T 800,260 T 1280,300" opacity="0.15">
+      <animate attributeName="opacity" values="0.15;0.3;0.15" dur="3s" repeatCount="indefinite" />
+    </path>
+    <path d="M 0,320 Q 300,270 600,300 T 1280,280" opacity="0.12">
+      <animate attributeName="opacity" values="0.12;0.25;0.12" dur="4s" repeatCount="indefinite" begin="0.5s" />
+    </path>
+    <path d="M 0,100 Q 200,130 400,90 T 800,110 T 1280,80" opacity="0.12">
+      <animate attributeName="opacity" values="0.12;0.22;0.12" dur="3.5s" repeatCount="indefinite" begin="1s" />
+    </path>
+  </g>
+
+  <!-- ═══ ACCENT LINE — glowing sweep ═══ -->
+  <line x1="440" y1="240" x2="840" y2="240" stroke="url(#glowGrad)" stroke-width="1" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.5s" repeatCount="indefinite" />
+  </line>
+
+  <!-- ═══ NAME TEXT with glow pulse ═══ -->
   <text x="640" y="175" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="url(#nameGrad)" filter="url(#glow)">
     Mark Vencent L. Juntilla
+    <animate attributeName="opacity" values="1;0.85;1" dur="3s" repeatCount="indefinite" />
   </text>
   
-  <!-- Tagline -->
+  <!-- ═══ TAGLINE ═══ -->
   <text x="640" y="220" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="18" font-weight="300" fill="#93CCE9" letter-spacing="6" opacity="0.9">
     FULL-STACK DEVELOPER · AI ENTHUSIAST · PROBLEM SOLVER
   </text>
   
-  <!-- Thin accent line under tagline -->
-  <line x1="440" y1="240" x2="840" y2="240" stroke="url(#glowGrad)" stroke-width="1" opacity="0.5"/>
-  
-  <!-- Tech icons area - subtle -->
+  <!-- ═══ TECH ICONS — rotating opacity cycle ═══ -->
   <g opacity="0.5" filter="url(#softGlow)">
-    <!-- React icon hint -->
+    <!-- React -->
     <g transform="translate(420, 280)">
-      <circle cx="0" cy="0" r="14" fill="none" stroke="#61DAFB" stroke-width="1" opacity="0.6"/>
-      <ellipse cx="0" cy="0" rx="12" ry="5" fill="none" stroke="#61DAFB" stroke-width="0.8" transform="rotate(0)" opacity="0.4"/>
-      <ellipse cx="0" cy="0" rx="12" ry="5" fill="none" stroke="#61DAFB" stroke-width="0.8" transform="rotate(60)" opacity="0.4"/>
-      <ellipse cx="0" cy="0" rx="12" ry="5" fill="none" stroke="#61DAFB" stroke-width="0.8" transform="rotate(120)" opacity="0.4"/>
+      <circle cx="0" cy="0" r="14" fill="none" stroke="#61DAFB" stroke-width="1" opacity="0.6">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" begin="0s" />
+      </circle>
+      <ellipse cx="0" cy="0" rx="12" ry="5" fill="none" stroke="#61DAFB" stroke-width="0.8" opacity="0.4">
+        <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite" begin="0s" />
+      </ellipse>
+      <ellipse cx="0" cy="0" rx="12" ry="5" fill="none" stroke="#61DAFB" stroke-width="0.8" opacity="0.4" transform="rotate(60)">
+        <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite" begin="0s" />
+      </ellipse>
+      <ellipse cx="0" cy="0" rx="12" ry="5" fill="none" stroke="#61DAFB" stroke-width="0.8" opacity="0.4" transform="rotate(120)">
+        <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite" begin="0s" />
+      </ellipse>
     </g>
-    <!-- Laravel icon hint -->
+    <!-- Laravel -->
     <g transform="translate(500, 280)">
-      <rect x="-12" y="-12" width="24" height="24" rx="3" fill="none" stroke="#FF2D20" stroke-width="1" opacity="0.6"/>
-      <text x="0" y="5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#FF2D20" opacity="0.5">L</text>
+      <rect x="-12" y="-12" width="24" height="24" rx="3" fill="none" stroke="#FF2D20" stroke-width="1" opacity="0.6">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" begin="0.3s" />
+      </rect>
+      <text x="0" y="5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#FF2D20" opacity="0.5">
+        L
+        <animate attributeName="opacity" values="0.5;0.9;0.5" dur="2s" repeatCount="indefinite" begin="0.3s" />
+      </text>
     </g>
-    <!-- Node.js icon hint -->
+    <!-- Node.js -->
     <g transform="translate(580, 280)">
-      <polygon points="0,-14 12,7 -12,7" fill="none" stroke="#68A063" stroke-width="1" opacity="0.6"/>
+      <polygon points="0,-14 12,7 -12,7" fill="none" stroke="#68A063" stroke-width="1" opacity="0.6">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" begin="0.6s" />
+      </polygon>
     </g>
-    <!-- PHP icon hint -->
+    <!-- PHP -->
     <g transform="translate(660, 280)">
-      <ellipse cx="0" cy="0" rx="14" ry="10" fill="none" stroke="#777BB4" stroke-width="1" opacity="0.6"/>
+      <ellipse cx="0" cy="0" rx="14" ry="10" fill="none" stroke="#777BB4" stroke-width="1" opacity="0.6">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" begin="0.9s" />
+      </ellipse>
     </g>
-    <!-- Python icon hint -->
+    <!-- Python -->
     <g transform="translate(740, 280)">
-      <path d="M-10,10 Q-12,-5 0,-12 Q12,-5 10,10" fill="none" stroke="#3776AB" stroke-width="1" opacity="0.6"/>
+      <path d="M-10,10 Q-12,-5 0,-12 Q12,-5 10,10" fill="none" stroke="#3776AB" stroke-width="1" opacity="0.6">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" begin="1.2s" />
+      </path>
     </g>
-    <!-- C# icon hint -->
+    <!-- C# -->
     <g transform="translate(820, 280)">
-      <text x="0" y="5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#68217A" opacity="0.6">C#</text>
+      <text x="0" y="5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#68217A" opacity="0.6">
+        C#
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" begin="1.5s" />
+      </text>
     </g>
   </g>
-  
-  <!-- Bottom border glow -->
-  <line x1="0" y1="399" x2="1280" y2="399" stroke="url(#glowGrad)" stroke-width="2" opacity="0.6"/>
+
+  <!-- ═══ BOTTOM GLOW LINE — pulsing ═══ -->
+  <line x1="0" y1="399" x2="1280" y2="399" stroke="url(#glowGrad)" stroke-width="2" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="2s" repeatCount="indefinite" />
+  </line>
 </svg>
