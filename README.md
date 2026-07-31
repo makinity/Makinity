@@ -372,14 +372,24 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 
 <br/>
 
-## 🏆 Trophies
+## 🏆 Achievements
 
 <br/>
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=makinity&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10&row=1&border=1683DF" alt="Trophies" />
-  </a>
+  <img src="https://img.shields.io/badge/⭐_Starred_Project-FFD700?style=for-the-badge&labelColor=111f42" alt="Starred" />
+  <img src="https://img.shields.io/badge/🤖_AI_Integrated_Apps-00d4ff?style=for-the-badge&labelColor=111f42" alt="AI Apps" />
+  <img src="https://img.shields.io/badge/💳_Payment_Integration-22C55E?style=for-the-badge&labelColor=111f42" alt="Payments" />
+  <img src="https://img.shields.io/badge/📱_Cross_Platform-93CCE9?style=for-the-badge&labelColor=111f42" alt="Cross Platform" />
+  <img src="https://img.shields.io/badge/🔔_Real_Time_Systems-FF6B6B?style=for-the-badge&labelColor=111f42" alt="Real-time" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/🏗️_Clean_Architecture-1683DF?style=for-the-badge&labelColor=111f42" alt="Architecture" />
+  <img src="https://img.shields.io/badge/📊_ML_Model-7C3AED?style=for-the-badge&labelColor=111f42" alt="ML" />
+  <img src="https://img.shields.io/badge/🔄_GitHub_Actions-2088FF?style=for-the-badge&labelColor=111f42" alt="CI/CD" />
+  <img src="https://img.shields.io/badge/🎯_Role_Based_Access-F59E0B?style=for-the-badge&labelColor=111f42" alt="RBAC" />
+  <img src="https://img.shields.io/badge/☁️_Vercel_Deployed-000000?style=for-the-badge&labelColor=111f42" alt="Deployed" />
 </p>
 
 <br/>
