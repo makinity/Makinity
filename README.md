@@ -4,8 +4,6 @@
   </a>
 </p>
 
-<h1 align="center">Mark Vencent L. Juntilla</h1>
-
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Inter:wght@300;400;500;600;700&weight=600&size=22&duration=3000&pause=1000&color=1683DF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=Full-Stack+Developer;AI+Enthusiast;Problem+Solver;Building+Digital+Solutions" alt="Typing SVG" />
 </p>
