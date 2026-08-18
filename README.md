@@ -302,6 +302,44 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🍗 Chicken Express
+
+> A web-based chicken food ordering system with **PayMongo payment integration**, featuring a customer storefront and a full admin panel.
+
+<br/>
+
+**Stack:**
+<br/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" alt="Spring Boot" />
+<img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white" alt="Thymeleaf" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+<img src="https://img.shields.io/badge/PayMongo-0066FF?style=flat-square&logoColor=white" alt="PayMongo" />
+
+<br/>
+
+**Highlights:**
+- 🛒 Customer storefront — browse, cart, checkout & order tracking
+- 🔐 Spring Security with role-based access (Customer / Admin)
+- 💳 PayMongo hosted checkout (GCash, Maya, card)
+- 🔔 Webhook-driven order status updates
+- 📊 Admin dashboard with Excel & PDF reports
+- 📦 Full product & order management system
+
+<br/>
+
+<a href="https://github.com/makinity/ChickenExpress">
+  <img src="https://img.shields.io/badge/📂_View_Repo-111f42?style=for-the-badge" alt="Repo" />
+</a>
+
+</td>
+<td width="50%" valign="top">
+</td>
+</tr>
 </table>
 
 <br/>
