@@ -434,6 +434,60 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 
 <br/>
 
+## 🏅 Certifications
+
+<br/>
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+
+**🎓 COIL 2025**
+<br/>
+Tourism Web Application
+<br/>
+<sub>DDSC × EVSU · Philippines</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/COIL_Program-2025-1683DF?style=flat-square&labelColor=111f42" alt="COIL 2025" />
+
+</td>
+<td width="33%" valign="top" align="center">
+
+**🎓 COIL 2026**
+<br/>
+SociaLite Social Media App
+<br/>
+<sub>DDSC × National Meanchey University · Cambodia</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/COIL_Program-2026-1683DF?style=flat-square&labelColor=111f42" alt="COIL 2026" />
+
+</td>
+<td width="33%" valign="top" align="center">
+
+**📜 VA Bar — Intermediate Training**
+<br/>
+SMM · Lead Generation · Graphic Design
+<br/>
+<sub>Email Marketing · Administrative</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/The_VA_Bar-Aug_2026-22C55E?style=flat-square&labelColor=111f42" alt="VA Bar" />
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<p align="center">
+  <sub>🎯 <b>Working toward:</b> Google Digital Marketing · AWS Cloud Practitioner · GitHub Foundations</sub>
+</p>
+
+<br/>
+
+---
+
+<br/>
+
 ## 🧠 What I'm Currently Working On
 
 <br/>
