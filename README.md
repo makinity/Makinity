@@ -106,6 +106,7 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
 <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+<img src="https://img.shields.io/badge/Shopify-96BF48?style=for-the-badge&logo=shopify&logoColor=white" alt="Shopify" />
 
 </td>
 <td width="50%" valign="top">
@@ -338,6 +339,38 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 
 </td>
 <td width="50%" valign="top">
+
+### ☕ Maki Coffee Co.
+
+> A full **Shopify theme built from scratch** for a fictional specialty coffee brand — production-ready, fully branded, and portfolio-grade.
+
+<br/>
+
+**Stack:**
+<br/>
+<img src="https://img.shields.io/badge/Shopify-96BF48?style=flat-square&logo=shopify&logoColor=white" alt="Shopify" />
+<img src="https://img.shields.io/badge/Liquid-7AB55C?style=flat-square&logo=shopify&logoColor=white" alt="Liquid" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/Groq_API-FF6B00?style=flat-square&logoColor=white" alt="Groq" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
+
+<br/>
+
+**Highlights:**
+- 🎨 Full brand system — CSS tokens, Playfair Display, warm coffee palette
+- 🛍️ Custom sections with Shopify schema & block repeaters
+- 🛒 Product page with gallery, variant picker & quantity stepper
+- ⚡ AJAX add-to-cart with live cart count feedback
+- 🤖 Floating AI chatbot widget wired to Groq API proxy
+- 🎞️ Scroll-triggered animations via IntersectionObserver
+
+<br/>
+
+<a href="https://github.com/makinity/Shopify-Coffe-Store">
+  <img src="https://img.shields.io/badge/📂_View_Repo-111f42?style=for-the-badge" alt="Repo" />
+</a>
+
 </td>
 </tr>
 </table>
@@ -426,6 +459,7 @@ When I'm not coding, I'm probably learning something new, automating my workflow
   <img src="https://img.shields.io/badge/🔄_GitHub_Actions-2088FF?style=for-the-badge&labelColor=111f42" alt="CI/CD" />
   <img src="https://img.shields.io/badge/🎯_Role_Based_Access-F59E0B?style=for-the-badge&labelColor=111f42" alt="RBAC" />
   <img src="https://img.shields.io/badge/☁️_Vercel_Deployed-000000?style=for-the-badge&labelColor=111f42" alt="Deployed" />
+  <img src="https://img.shields.io/badge/☕_Shopify_Theme_Dev-96BF48?style=for-the-badge&labelColor=111f42" alt="Shopify" />
 </p>
 
 <br/>
