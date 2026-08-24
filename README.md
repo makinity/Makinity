@@ -370,6 +370,9 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 <a href="https://github.com/makinity/Shopify-Coffe-Store">
   <img src="https://img.shields.io/badge/📂_View_Repo-111f42?style=for-the-badge" alt="Repo" />
 </a>
+<a href="https://maki-practice-store.myshopify.com">
+  <img src="https://img.shields.io/badge/🌐_Live_Store-96BF48?style=for-the-badge&logo=shopify&logoColor=white" alt="Live Store" />
+</a>
 
 </td>
 </tr>
