@@ -228,6 +228,9 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 
 <br/>
 
+<a href="https://smart-pms.onrender.com/">
+  <img src="https://img.shields.io/badge/🚀_Live-Demo-22C55E?style=for-the-badge&logo=render&logoColor=white" alt="Live Demo" />
+</a>
 <a href="https://github.com/makinity/Smart-PMS">
   <img src="https://img.shields.io/badge/⭐_Starred-FFD700?style=for-the-badge" alt="Star" />
 </a>
@@ -607,7 +610,7 @@ Expanding personal brand
 🎯 SHORT-TERM (3-6 months)
 ├── ✅ MakiSync Portfolio Website — Complete
 ├── ✅ BoardEase — Full-stack system — Complete
-├── ✅ Smart PMS — ML-integrated system — Complete
+├── ✅ Smart PMS — ML-integrated system — Live 🚀
 ├── 🔨 Secure remote position (Software Engineer / VA)
 ├── 🔨 Build 3-5 paying freelance clients
 ├── 🔨 AWS Cloud Practitioner certification
