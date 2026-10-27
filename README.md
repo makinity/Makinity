@@ -166,6 +166,39 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 <tr>
 <td width="50%" valign="top">
 
+### 🎮 KyroPad
+
+> The **Ultimate Wireless Precision Trackpad, Multi-Monitor Remote Screen & Macro Deck** for Windows 11 — your smartphone becomes a full PC controller over local Wi-Fi.
+
+<br/>
+
+**Stack:**
+<br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" />
+<img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
+<img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socket.io&logoColor=white" alt="WebSockets" />
+<img src="https://img.shields.io/badge/Win32_GDI-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Win32 GDI" />
+
+<br/>
+
+**Highlights:**
+- 🖱️ Hardware-grade trackpad with Windows Precision gesture support
+- 🖥️ Live multi-monitor screen streaming at 20–25+ FPS
+- 🎛️ Windows 11 macro deck — snap, volume, hotkeys & shortcuts
+- 📡 100% local Wi-Fi WebSocket — zero cloud, sub-10ms latency
+- 📱 Cross-platform mobile client (iOS & Android via Expo)
+- ⌨️ Remote keyboard with Unicode text broadcast
+
+<br/>
+
+<a href="https://github.com/makinity/win-deck-remote">
+  <img src="https://img.shields.io/badge/📂_View_Repo-111f42?style=for-the-badge" alt="Repo" />
+</a>
+
+</td>
+<td width="50%" valign="top">
+
 ### 🏠 BoardEase
 
 > A full-stack boarding house management system that handles the complete rental lifecycle: **search → reserve → rent → bill → pay**.
@@ -201,6 +234,8 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 </a>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 📊 Smart PMS
@@ -236,8 +271,6 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 </a>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🎯 JobHunter AI
@@ -271,6 +304,8 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 </a>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🌐 MakiSync
@@ -305,8 +340,6 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 </a>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🍗 Chicken Express
@@ -341,6 +374,8 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 </a>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### ☕ Maki Coffee Co.
