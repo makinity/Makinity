@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 430" width="100%" height="100%">
+<defs>
+  <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#050811" />
+    <stop offset="50%" stop-color="#091326" />
+    <stop offset="100%" stop-color="#050811" />
+  </linearGradient>
+  <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#93CCE9" />
+    <stop offset="50%" stop-color="#1683DF" />
+    <stop offset="100%" stop-color="#38bdf8" />
+  </linearGradient>
+  <linearGradient id="mountainGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#0f274d" stop-opacity="0.9" />
+    <stop offset="100%" stop-color="#050811" stop-opacity="0.98" />
+  </linearGradient>
+  <linearGradient id="fadeL" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#050811" stop-opacity="0.95" />
+    <stop offset="45%" stop-color="#050811" stop-opacity="0.75" />
+    <stop offset="100%" stop-color="#050811" stop-opacity="0.1" />
+  </linearGradient>
+  <filter id="blueGlow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="8" result="blur" />
+    <feComposite in="SourceGraphic" in2="blur" operator="over" />
+  </filter>
+  <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1683df" stroke-width="0.7" opacity="0.12" />
+  </pattern>
+</defs>
+
+<style>
+  @keyframes bl { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+  @keyframes pu { 0%, 100% { opacity: 0.95; transform: scale(1); } 50% { opacity: 0.25; transform: scale(0.85); } }
+  @keyframes shimmer { 0% { transform: translateX(-100%); } 100% { transform: translateX(200%); } }
+  .pu { animation: pu 2.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  .bl { animation: bl 1s steps(1) infinite; }
+  .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Courier New', monospace; }
+  .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+</style>
+
+<!-- Canvas Background -->
+<rect width="1600" height="430" fill="url(#heroBg)" />
+<rect width="1600" height="430" fill="url(#cyberGrid)" />
+
+<!-- Starfield / Pulsing Cyber Nodes -->
+<g id="stars">
+  <circle cx="780" cy="120" r="1.5" fill="#93CCE9" class="pu" style="animation-delay: 0.2s;" />
+  <circle cx="890" cy="85" r="2" fill="#1683DF" class="pu" style="animation-delay: 1.1s;" />
+  <circle cx="950" cy="150" r="1.2" fill="#ffffff" class="pu" style="animation-delay: 0.7s;" />
+  <circle cx="1040" cy="95" r="1.8" fill="#93CCE9" class="pu" style="animation-delay: 1.8s;" />
+  <circle cx="1120" cy="170" r="1.4" fill="#1683DF" class="pu" style="animation-delay: 2.2s;" />
+  <circle cx="1210" cy="110" r="2" fill="#ffffff" class="pu" style="animation-delay: 0.4s;" />
+  <circle cx="1320" cy="140" r="1.5" fill="#93CCE9" class="pu" style="animation-delay: 1.5s;" />
+  <circle cx="1410" cy="80" r="2.2" fill="#1683DF" class="pu" style="animation-delay: 0.9s;" />
+  <circle cx="1490" cy="130" r="1.3" fill="#ffffff" class="pu" style="animation-delay: 2.0s;" />
+  <circle cx="1540" cy="90" r="1.7" fill="#93CCE9" class="pu" style="animation-delay: 1.3s;" />
+  <circle cx="820" cy="220" r="1.2" fill="#93CCE9" class="pu" style="animation-delay: 0.8s;" />
+  <circle cx="980" cy="240" r="1.5" fill="#1683DF" class="pu" style="animation-delay: 1.9s;" />
+  <circle cx="1260" cy="210" r="1.8" fill="#ffffff" class="pu" style="animation-delay: 1.2s;" />
+  <circle cx="1440" cy="230" r="1.4" fill="#93CCE9" class="pu" style="animation-delay: 2.4s;" />
+</g>
+
+<!-- Futuristic Skyline / Horizon Mountain Silhouette -->
+<g id="horizon">
+  <path d="M 720 430 L 860 330 L 980 370 L 1110 280 L 1220 320 L 1340 240 L 1450 280 L 1540 220 L 1600 250 L 1600 430 Z" fill="url(#mountainGrad)" />
+  <polyline points="720,430 860,330 980,370 1110,280 1220,320 1340,240 1450,280 1540,220 1600,250" fill="none" stroke="#1683DF" stroke-width="2.5" opacity="0.8" filter="url(#blueGlow)" />
+  <polyline points="720,430 860,330 980,370 1110,280 1220,320 1340,240 1450,280 1540,220 1600,250" fill="none" stroke="#93CCE9" stroke-width="1.2" opacity="0.9" />
+
+  <!-- Cyber Grid Peaks and Distant Antenna Beacons -->
+  <line x1="1340" y1="240" x2="1340" y2="190" stroke="#1683DF" stroke-width="1.5" stroke-dasharray="3 3" />
+  <circle cx="1340" cy="188" r="3" fill="#93CCE9" class="pu" style="animation-delay: 0.5s;" />
+
+  <line x1="1110" y1="280" x2="1110" y2="240" stroke="#1683DF" stroke-width="1.5" stroke-dasharray="3 3" />
+  <circle cx="1110" cy="238" r="2.5" fill="#38bdf8" class="pu" style="animation-delay: 1.4s;" />
+
+  <line x1="1540" y1="220" x2="1540" y2="175" stroke="#1683DF" stroke-width="1.5" stroke-dasharray="3 3" />
+  <circle cx="1540" cy="173" r="3" fill="#93CCE9" class="pu" style="animation-delay: 0.9s;" />
+
+  <!-- Gradient overlay to keep left side high contrast for text -->
+  <rect width="1600" height="430" fill="url(#fadeL)" />
+</g>
+
+<!-- Outer Cyber Frame & Corners -->
+<rect x="12" y="12" width="1576" height="406" rx="14" fill="none" stroke="#1683DF" stroke-width="2" opacity="0.45" />
+<rect x="8" y="8" width="1584" height="414" rx="16" fill="none" stroke="#93CCE9" stroke-width="5" opacity="0.15" />
+<!-- High-Tech Corner Brackets -->
+<path d="M 12 60 V 12 H 60 M 1540 12 H 1588 V 60 M 12 370 V 418 H 60 M 1540 418 H 1588 V 370" fill="none" stroke="#1683DF" stroke-width="4.5" />
+
+<!-- Status Pill Badge (Top Left) -->
+<g transform="translate(84, 48)">
+  <rect x="0" y="0" width="370" height="34" rx="17" fill="#0c1a33" stroke="#1683DF" stroke-width="1.2" opacity="0.9" />
+  <circle cx="18" cy="17" r="5" fill="#22C55E" />
+  <circle cx="18" cy="17" r="9" fill="#22C55E" opacity="0.3" class="pu" />
+  <text x="34" y="22" class="mono" font-size="13" font-weight="600" fill="#93CCE9" letter-spacing="1">BSIT 4TH YEAR · DAVAO DEL SUR, PH</text>
+</g>
+
+<!-- Hero Titles -->
+<g transform="translate(84, 185)">
+  <text x="0" y="0" class="sans" font-size="125" font-weight="800" fill="#F0F6FC" letter-spacing="-1">makinity</text>
+  <text x="560" y="-8" class="sans" font-size="64" font-weight="700" fill="url(#neonBlue)">.dev</text>
+  <!-- Blinking Cursor -->
+  <rect x="715" y="-72" width="22" height="78" fill="#1683DF" class="bl" />
+</g>
+
+<!-- Subtitle / Role -->
+<g transform="translate(84, 250)">
+  <text x="0" y="0" class="mono" font-size="34" font-weight="600" fill="#93CCE9" letter-spacing="0.5">Software Engineer | Full-Stack &amp; AI</text>
+</g>
+
+<!-- Taglines / Motto -->
+<g transform="translate(84, 305)">
+  <text x="0" y="0" class="mono" font-size="24" fill="#F0F6FC" opacity="0.9">"Plan with purpose. Build with quality.</text>
+  <text x="0" y="34" class="mono" font-size="24" fill="#93CCE9" opacity="0.9"> Learn continuously. Improve consistently."</text>
+</g>
+
+<!-- Floating Cyber Philosophy Badge (Top Right) -->
+<g transform="translate(1440, 70) rotate(-10)">
+  <rect x="-110" y="-20" width="220" height="200" rx="16" fill="#091426" stroke="#1683DF" stroke-width="1.8" opacity="0.85" />
+  <rect x="-106" y="-16" width="212" height="192" rx="13" fill="none" stroke="#93CCE9" stroke-width="1" opacity="0.3" />
+  <text x="0" y="25" class="mono" font-size="20" font-weight="700" fill="#F0F6FC" text-anchor="middle" letter-spacing="2">PLAN</text>
+  <text x="0" y="55" class="mono" font-size="16" fill="#1683DF" text-anchor="middle" letter-spacing="1.5">FIRST</text>
+  <line x1="-50" y1="72" x2="50" y2="72" stroke="#1683DF" stroke-width="1.5" opacity="0.5" />
+  <text x="0" y="98" class="mono" font-size="20" font-weight="700" fill="#93CCE9" text-anchor="middle" letter-spacing="2">BUILD</text>
+  <text x="0" y="128" class="mono" font-size="16" fill="#1683DF" text-anchor="middle" letter-spacing="1.5">RIGHT</text>
+  <line x1="-50" y1="142" x2="50" y2="142" stroke="#1683DF" stroke-width="1.5" opacity="0.5" />
+  <text x="0" y="165" class="mono" font-size="14" font-weight="600" fill="#22C55E" text-anchor="middle" letter-spacing="1">SCALE FAST</text>
+</g>
+
+</svg>

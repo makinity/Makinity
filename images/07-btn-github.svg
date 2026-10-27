@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 150" width="100%" height="100%">
+<defs>
+  <linearGradient id="btnBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#070c18" />
+    <stop offset="100%" stop-color="#0a152e" />
+  </linearGradient>
+  <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+    <stop offset="50%" stop-color="#ffffff" stop-opacity="0.12" />
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+  </linearGradient>
+  <clipPath id="btnClip">
+    <rect x="4" y="4" width="432" height="142" rx="12" />
+  </clipPath>
+</defs>
+
+<style>
+  @keyframes shim { 0% { transform: translateX(-150px) skewX(-20deg); opacity: 0; } 10% { opacity: 1; } 50% { opacity: 1; } 65%, 100% { transform: translateX(500px) skewX(-20deg); opacity: 0; } }
+  @keyframes nd { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(3px, -3px); } }
+  .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Courier New', monospace; }
+  .shm { animation: shim 6.5s ease-in-out infinite; animation-delay: 4.5s; }
+  .nd { animation: nd 1.8s ease-in-out infinite; }
+</style>
+
+<rect width="440" height="150" fill="#050811" />
+
+<!-- Button Outer Container -->
+<rect x="4" y="4" width="432" height="142" rx="12" fill="url(#btnBg)" stroke="#1683DF" stroke-width="2" />
+<rect x="8" y="8" width="424" height="134" rx="10" fill="none" stroke="#93CCE9" stroke-width="1" opacity="0.2" />
+
+<!-- High-Tech Corner Accents -->
+<path d="M 4 28 V 4 H 28 M 412 146 H 436 V 122" fill="none" stroke="#38bdf8" stroke-width="3" />
+
+<!-- Left Icon Box -->
+<g transform="translate(24, 28)">
+  <rect width="86" height="86" rx="10" fill="#0d2144" stroke="#1683DF" stroke-width="1.8" />
+  <!-- GitHub Octocat Icon -->
+  <g transform="translate(24, 24)" fill="#93CCE9">
+    <path d="M19 0C8.5 0 0 8.7 0 19.5c0 8.6 5.4 15.9 13 18.5 1 .2 1.3-.4 1.3-.9v-3.5c-5.3 1.2-6.4-2.6-6.4-2.6-.9-2.2-2.1-2.8-2.1-2.8-1.7-1.2.1-1.2.1-1.2 1.9.1 2.9 2 2.9 2 1.7 3 4.5 2.1 5.6 1.6.2-1.3.7-2.1 1.2-2.6-4.2-.5-8.7-2.2-8.7-9.7 0-2.1.8-3.9 2-5.3-.2-.5-.9-2.5.2-5.2 0 0 1.6-.5 5.3 2 1.5-.4 3.2-.7 4.8-.7s3.3.3 4.8.7c3.7-2.5 5.3-2 5.3-2 1.1 2.7.4 4.7.2 5.2 1.3 1.4 2 3.2 2 5.3 0 7.5-4.5 9.2-8.7 9.7.7.6 1.4 1.9 1.4 3.8v5.6c0 .6.4 1.2 1.4.9 7.5-2.6 12.9-9.9 12.9-18.5C38 8.7 29.5 0 19 0z"/>
+  </g>
+</g>
+
+<!-- Button Text -->
+<g transform="translate(130, 68)">
+  <text x="0" y="0" class="sans" font-size="27" font-weight="800" fill="#F0F6FC">GitHub</text>
+  <text x="0" y="32" class="mono" font-size="15" font-weight="600" fill="#38bdf8">github.com/makinity</text>
+</g>
+
+<!-- Animated Diagonal Arrow (Top Right) -->
+<g class="nd" transform="translate(385, 34)">
+  <path d="M 0 16 L 16 0 M 4 0 H 16 V 12" fill="none" stroke="#93CCE9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+
+<!-- Shimmer Sweep Overlay -->
+<g clip-path="url(#btnClip)">
+  <rect class="shm" x="0" y="0" width="80" height="150" fill="url(#shimmer)" opacity="0" />
+</g>
+
+</svg>

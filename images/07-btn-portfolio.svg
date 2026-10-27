@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 150" width="100%" height="100%">
+<defs>
+  <linearGradient id="btnBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#070c18" />
+    <stop offset="100%" stop-color="#0a152e" />
+  </linearGradient>
+  <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+    <stop offset="50%" stop-color="#ffffff" stop-opacity="0.12" />
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+  </linearGradient>
+  <clipPath id="btnClip">
+    <rect x="4" y="4" width="432" height="142" rx="12" />
+  </clipPath>
+</defs>
+
+<style>
+  @keyframes shim { 0% { transform: translateX(-150px) skewX(-20deg); opacity: 0; } 10% { opacity: 1; } 50% { opacity: 1; } 65%, 100% { transform: translateX(500px) skewX(-20deg); opacity: 0; } }
+  @keyframes nd { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(3px, -3px); } }
+  .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Courier New', monospace; }
+  .shm { animation: shim 6.5s ease-in-out infinite; }
+  .nd { animation: nd 1.8s ease-in-out infinite; }
+</style>
+
+<rect width="440" height="150" fill="#050811" />
+
+<!-- Button Outer Container -->
+<rect x="4" y="4" width="432" height="142" rx="12" fill="url(#btnBg)" stroke="#1683DF" stroke-width="2" />
+<rect x="8" y="8" width="424" height="134" rx="10" fill="none" stroke="#93CCE9" stroke-width="1" opacity="0.2" />
+
+<!-- High-Tech Corner Accents -->
+<path d="M 4 28 V 4 H 28 M 412 146 H 436 V 122" fill="none" stroke="#38bdf8" stroke-width="3" />
+
+<!-- Left Icon Box -->
+<g transform="translate(24, 28)">
+  <rect width="86" height="86" rx="10" fill="#0d2144" stroke="#1683DF" stroke-width="1.8" />
+  <!-- Globe / Web Icon -->
+  <g transform="translate(22, 22)" fill="none" stroke="#93CCE9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="21" cy="21" r="18" />
+    <path d="M 3 21 H 39 M 21 3 C 27 10 27 32 21 39 M 21 3 C 15 10 15 32 21 39" />
+  </g>
+</g>
+
+<!-- Button Text -->
+<g transform="translate(130, 68)">
+  <text x="0" y="0" class="sans" font-size="27" font-weight="800" fill="#F0F6FC">Portfolio</text>
+  <text x="0" y="32" class="mono" font-size="15" font-weight="600" fill="#38bdf8">maki-sync.vercel.app</text>
+</g>
+
+<!-- Animated Diagonal Arrow (Top Right) -->
+<g class="nd" transform="translate(385, 34)">
+  <path d="M 0 16 L 16 0 M 4 0 H 16 V 12" fill="none" stroke="#93CCE9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+
+<!-- Shimmer Sweep Overlay -->
+<g clip-path="url(#btnClip)">
+  <rect class="shm" x="0" y="0" width="80" height="150" fill="url(#shimmer)" opacity="0" />
+</g>
+
+</svg>

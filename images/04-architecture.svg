@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" width="100%" height="100%">
+<defs>
+  <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#070c18" />
+    <stop offset="100%" stop-color="#0a1429" />
+  </linearGradient>
+  <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#93CCE9" />
+    <stop offset="50%" stop-color="#1683DF" />
+    <stop offset="100%" stop-color="#38bdf8" />
+  </linearGradient>
+  <filter id="glowBlue" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="6" result="blur" />
+    <feComposite in="SourceGraphic" in2="blur" operator="over" />
+  </filter>
+  <pattern id="cardGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+    <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1683DF" stroke-width="0.5" opacity="0.08" />
+  </pattern>
+</defs>
+
+<style>
+  @keyframes fw { to { stroke-dashoffset: -36; } }
+  @keyframes pk { 0% { transform: translateX(0); opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { transform: translateX(var(--dx)); opacity: 0; } }
+  @keyframes gl { 0%, 100% { opacity: 0.15; } 50% { opacity: 0.65; } }
+  .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Courier New', monospace; }
+  .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+  .fw { animation: fw 1.4s linear infinite; }
+  .pk { animation: pk 2.2s linear infinite; }
+  .gl { animation: gl 3s ease-in-out infinite; }
+</style>
+
+<rect width="1600" height="520" fill="#050811" />
+
+<!-- Outer Card Container -->
+<rect x="20" y="16" width="1560" height="488" rx="14" fill="url(#cardBg)" stroke="#1683DF" stroke-width="2" opacity="0.9" />
+<rect x="20" y="16" width="1560" height="488" rx="14" fill="url(#cardGrid)" />
+<rect x="24" y="20" width="1552" height="480" rx="12" fill="none" stroke="#93CCE9" stroke-width="1" opacity="0.2" />
+
+<!-- High-Tech Corner Brackets -->
+<path d="M 20 54 V 16 H 58 M 1542 16 H 1580 V 54 M 20 466 V 504 H 58 M 1542 504 H 1580 V 466" fill="none" stroke="#1683DF" stroke-width="3.5" />
+
+<!-- Section Header -->
+<g transform="translate(60, 68)">
+  <!-- Architecture / Flow Icon -->
+  <rect x="0" y="-22" width="40" height="40" rx="8" fill="#0c1d3b" stroke="#1683DF" stroke-width="1.5" />
+  <path d="M 8 -8 H 20 V 4 H 32 M 8 4 H 20" fill="none" stroke="#93CCE9" stroke-width="2" stroke-linecap="round" />
+  <text x="56" y="2" class="sans" font-size="28" font-weight="800" fill="#F0F6FC">System Architecture</text>
+  <text x="350" y="2" class="mono" font-size="16" fill="#8ea4c8">| Modern Full-Stack &amp; AI Engineering Pipeline</text>
+</g>
+
+<!-- ==================== FLOW DIAGRAM ==================== -->
+
+<!-- NODE 1: USER (x=60, y=210) -->
+<g transform="translate(60, 210)">
+  <!-- User Icon & Label -->
+  <g transform="translate(20, 0)">
+    <circle cx="28" cy="22" r="16" fill="#0e2246" stroke="#1683DF" stroke-width="2" />
+    <path d="M 16 54 C 16 38 40 38 40 54" fill="none" stroke="#1683DF" stroke-width="2.5" />
+    <circle cx="28" cy="22" r="7" fill="#93CCE9" />
+    <text x="28" y="78" class="sans" font-size="18" font-weight="700" fill="#F0F6FC" text-anchor="middle">Clients</text>
+    <text x="28" y="98" class="mono" font-size="12" fill="#7d93b2" text-anchor="middle">Web &amp; Mobile</text>
+  </g>
+</g>
+
+<!-- ARROW 1: User -> Frontend -->
+<g transform="translate(160, 246)">
+  <line x1="0" y1="0" x2="48" y2="0" stroke="#1683DF" stroke-width="3" stroke-linecap="round" />
+  <polygon points="48,0 40,-5 40,5" fill="#1683DF" />
+  <circle cx="0" cy="0" r="4" fill="#93CCE9" class="pk" style="--dx:48px; animation-delay: 0s;" />
+</g>
+
+<!-- NODE 2: FRONTEND (x=216, width=210) -->
+<g transform="translate(216, 170)">
+  <rect width="210" height="152" rx="10" fill="#09152b" stroke="#1683DF" stroke-width="2" />
+  <rect width="210" height="152" rx="10" fill="none" stroke="#93CCE9" stroke-width="6" class="gl" />
+  <rect x="0" y="0" width="40" height="3" fill="#1683DF" />
+
+  <!-- Device Icon -->
+  <rect x="91" y="22" width="28" height="20" rx="3" fill="none" stroke="#93CCE9" stroke-width="2" />
+  <line x1="86" y1="46" x2="124" y2="46" stroke="#93CCE9" stroke-width="2" stroke-linecap="round" />
+
+  <text x="105" y="78" class="sans" font-size="19" font-weight="700" fill="#F0F6FC" text-anchor="middle">Frontend Layer</text>
+  <text x="105" y="102" class="mono" font-size="13" font-weight="600" fill="#38bdf8" text-anchor="middle">Next.js · React</text>
+  <text x="105" y="124" class="sans" font-size="12" fill="#8ea4c8" text-anchor="middle">Expo (React Native)</text>
+</g>
+
+<!-- ARROW 2: Frontend -> API Gateway -->
+<g transform="translate(432, 246)">
+  <line x1="0" y1="0" x2="48" y2="0" stroke="#1683DF" stroke-width="3" stroke-linecap="round" />
+  <polygon points="48,0 40,-5 40,5" fill="#1683DF" />
+  <circle cx="0" cy="0" r="4" fill="#93CCE9" class="pk" style="--dx:48px; animation-delay: 0.4s;" />
+</g>
+
+<!-- NODE 3: API GATEWAY (x=488, width=210) -->
+<g transform="translate(488, 170)">
+  <rect width="210" height="152" rx="10" fill="#09152b" stroke="#1683DF" stroke-width="2" />
+  <rect width="210" height="152" rx="10" fill="none" stroke="#93CCE9" stroke-width="6" class="gl" style="animation-delay: 0.8s;" />
+  <rect x="0" y="0" width="40" height="3" fill="#1683DF" />
+
+  <!-- Network / Gateway Icon -->
+  <circle cx="105" cy="32" r="12" fill="none" stroke="#93CCE9" stroke-width="2" />
+  <path d="M 96 32 H 114 M 105 23 V 41" stroke="#93CCE9" stroke-width="1.8" />
+
+  <text x="105" y="78" class="sans" font-size="19" font-weight="700" fill="#F0F6FC" text-anchor="middle">API &amp; Routing</text>
+  <text x="105" y="102" class="mono" font-size="13" font-weight="600" fill="#38bdf8" text-anchor="middle">Laravel · Express</text>
+  <text x="105" y="124" class="sans" font-size="12" fill="#8ea4c8" text-anchor="middle">REST APIs · WebSockets</text>
+</g>
+
+<!-- ARROW 3: API Gateway -> Core Services -->
+<g transform="translate(704, 246)">
+  <line x1="0" y1="0" x2="48" y2="0" stroke="#1683DF" stroke-width="3" stroke-linecap="round" />
+  <polygon points="48,0 40,-5 40,5" fill="#1683DF" />
+  <circle cx="0" cy="0" r="4" fill="#93CCE9" class="pk" style="--dx:48px; animation-delay: 0.8s;" />
+</g>
+
+<!-- NODE 4: CORE SERVICES & BUSINESS LOGIC (x=760, width=220) -->
+<g transform="translate(760, 170)">
+  <rect width="220" height="152" rx="10" fill="#09152b" stroke="#1683DF" stroke-width="2" />
+  <rect width="220" height="152" rx="10" fill="none" stroke="#93CCE9" stroke-width="6" class="gl" style="animation-delay: 1.6s;" />
+  <rect x="0" y="0" width="40" height="3" fill="#1683DF" />
+
+  <!-- Server Stack Icon -->
+  <rect x="94" y="20" width="32" height="10" rx="2" fill="none" stroke="#93CCE9" stroke-width="1.8" />
+  <rect x="94" y="34" width="32" height="10" rx="2" fill="none" stroke="#1683DF" stroke-width="1.8" />
+
+  <text x="110" y="78" class="sans" font-size="19" font-weight="700" fill="#F0F6FC" text-anchor="middle">Core Services</text>
+  <text x="110" y="102" class="mono" font-size="13" font-weight="600" fill="#38bdf8" text-anchor="middle">Auth · Queue · Logic</text>
+  <text x="110" y="124" class="sans" font-size="12" fill="#8ea4c8" text-anchor="middle">Stripe / PayMongo</text>
+</g>
+
+<!-- ARROW 4: Core Services -> AI & DB Hub -->
+<g transform="translate(986, 246)">
+  <line x1="0" y1="0" x2="48" y2="0" stroke="#1683DF" stroke-width="3" stroke-linecap="round" />
+  <polygon points="48,0 40,-5 40,5" fill="#1683DF" />
+  <circle cx="0" cy="0" r="4" fill="#93CCE9" class="pk" style="--dx:48px; animation-delay: 1.2s;" />
+</g>
+
+<!-- NODE 5: AI & DATA HUB (x=1042, width=260) -->
+<g transform="translate(1042, 130)">
+  <!-- Outer Box -->
+  <rect width="260" height="232" rx="12" fill="#091326" stroke="#1683DF" stroke-width="2" />
+  <text x="130" y="30" class="mono" font-size="13" font-weight="700" fill="#93CCE9" text-anchor="middle" letter-spacing="1">AI &amp; DATA ENGINE</text>
+
+  <!-- Sub-block 1: LLM & AI -->
+  <g transform="translate(14, 46)">
+    <rect width="232" height="52" rx="8" fill="#0d2142" stroke="#1683DF" stroke-width="1.2" />
+    <path d="M 22 18 L 24 24 L 30 26 L 24 28 L 22 34 L 20 28 L 14 26 L 20 24 Z" fill="#93CCE9" />
+    <text x="40" y="27" class="sans" font-size="15" font-weight="700" fill="#F0F6FC">AI Models &amp; Video</text>
+    <text x="40" y="42" class="mono" font-size="11.5" fill="#38bdf8">Gemini · Groq · Veo</text>
+  </g>
+
+  <!-- Sub-block 2: Databases -->
+  <g transform="translate(14, 108)">
+    <rect width="232" height="52" rx="8" fill="#0d2142" stroke="#1683DF" stroke-width="1.2" />
+    <!-- DB Icon -->
+    <ellipse cx="22" cy="22" rx="8" ry="4" fill="none" stroke="#93CCE9" stroke-width="1.5" />
+    <path d="M 14 22 V 32 C 14 34 18 36 22 36 S 30 34 30 32 V 22" fill="none" stroke="#93CCE9" stroke-width="1.5" />
+    <text x="40" y="27" class="sans" font-size="15" font-weight="700" fill="#F0F6FC">Relational &amp; Real-Time</text>
+    <text x="40" y="42" class="mono" font-size="11.5" fill="#38bdf8">Supabase · MySQL</text>
+  </g>
+
+  <!-- Sub-block 3: Storage -->
+  <g transform="translate(14, 170)">
+    <rect width="232" height="50" rx="8" fill="#0d2142" stroke="#1683DF" stroke-width="1.2" />
+    <text x="116" y="24" class="sans" font-size="14" font-weight="600" fill="#F0F6FC" text-anchor="middle">Cloud Media &amp; Assets</text>
+    <text x="116" y="40" class="mono" font-size="11.5" fill="#8ea4c8" text-anchor="middle">S3 / Buckets / CDN</text>
+  </g>
+</g>
+
+<!-- ARROW 5: AI & DB Hub -> Cloud Infra -->
+<g transform="translate(1308, 246)">
+  <line x1="0" y1="0" x2="36" y2="0" stroke="#1683DF" stroke-width="3" stroke-linecap="round" />
+  <polygon points="36,0 28,-5 28,5" fill="#1683DF" />
+  <circle cx="0" cy="0" r="4" fill="#93CCE9" class="pk" style="--dx:36px; animation-delay: 1.6s;" />
+</g>
+
+<!-- NODE 6: CLOUD INFRASTRUCTURE (x=1350, width=200) -->
+<g transform="translate(1350, 150)">
+  <rect width="190" height="192" rx="10" fill="#09152b" stroke="#1683DF" stroke-width="2" stroke-dasharray="6 4" />
+  <!-- Cloud Icon -->
+  <path d="M 85 40 A 14 14 0 0 1 113 40 A 10 10 0 0 1 123 50 A 8 8 0 0 1 120 62 H 74 A 8 8 0 0 1 74 48 A 10 10 0 0 1 85 40 Z" fill="none" stroke="#93CCE9" stroke-width="2" />
+  <text x="95" y="88" class="sans" font-size="18" font-weight="700" fill="#F0F6FC" text-anchor="middle">Cloud &amp; DevOps</text>
+  <text x="95" y="110" class="mono" font-size="13" font-weight="600" fill="#38bdf8" text-anchor="middle">Vercel · AWS</text>
+
+  <!-- Badges -->
+  <g transform="translate(18, 130)">
+    <rect x="0" y="0" width="46" height="40" rx="6" fill="#0d1f3d" stroke="#1683DF" stroke-width="1" />
+    <text x="23" y="25" class="mono" font-size="11" font-weight="700" fill="#93CCE9" text-anchor="middle">CI/CD</text>
+
+    <rect x="54" y="0" width="46" height="40" rx="6" fill="#0d1f3d" stroke="#1683DF" stroke-width="1" />
+    <text x="77" y="25" class="mono" font-size="11" font-weight="700" fill="#38bdf8" text-anchor="middle">DOCK</text>
+
+    <rect x="108" y="0" width="46" height="40" rx="6" fill="#0d1f3d" stroke="#1683DF" stroke-width="1" />
+    <text x="131" y="25" class="mono" font-size="11" font-weight="700" fill="#22C55E" text-anchor="middle">PROD</text>
+  </g>
+</g>
+
+<!-- ==================== BOTTOM RETURN BUS: MONITORING & OBSERVABILITY ==================== -->
+<g transform="translate(0, 0)">
+  <!-- Connecting circuit lines -->
+  <path d="M 320 322 V 420 H 1445 V 342" fill="none" stroke="#10254c" stroke-width="3" />
+  <path class="fw" d="M 320 322 V 420 H 1445 V 342" fill="none" stroke="#1683DF" stroke-width="3" stroke-dasharray="8 12" />
+
+  <!-- Arrows on bus -->
+  <path d="M 314 330 L 320 322 L 326 330" fill="none" stroke="#1683DF" stroke-width="3" stroke-linecap="round" />
+  <path d="M 1439 350 L 1445 342 L 1451 350" fill="none" stroke="#1683DF" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Center Badge on Bus -->
+  <g transform="translate(630, 396)">
+    <rect width="340" height="48" rx="24" fill="#071329" stroke="#1683DF" stroke-width="1.8" />
+    <!-- Activity Pulse Graph Icon -->
+    <path d="M 28 24 L 38 24 L 44 14 L 50 34 L 56 24 L 66 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="82" y="30" class="sans" font-size="16" font-weight="700" fill="#F0F6FC">Continuous Delivery &amp; Telemetry</text>
+  </g>
+</g>
+
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 170" width="100%" height="100%">
+<defs>
+  <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#93CCE9" />
+    <stop offset="50%" stop-color="#1683DF" />
+    <stop offset="100%" stop-color="#38bdf8" />
+  </linearGradient>
+  <linearGradient id="lineGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#1683DF" stop-opacity="0" />
+    <stop offset="20%" stop-color="#1683DF" stop-opacity="0.8" />
+    <stop offset="50%" stop-color="#93CCE9" stop-opacity="1" />
+    <stop offset="80%" stop-color="#1683DF" stop-opacity="0.8" />
+    <stop offset="100%" stop-color="#1683DF" stop-opacity="0" />
+  </linearGradient>
+</defs>
+
+<style>
+  @keyframes br { 0%, 100% { opacity: 0.4; } 50% { opacity: 0.95; } }
+  .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Courier New', monospace; }
+  .br { animation: br 3.5s ease-in-out infinite; }
+</style>
+
+<rect width="1600" height="170" fill="#050811" />
+
+<!-- Glowing Link Icon -->
+<g class="br" transform="translate(36, 32)">
+  <rect x="0" y="0" width="68" height="68" rx="14" fill="#0a1936" stroke="#1683DF" stroke-width="2" />
+  <g transform="translate(17, 17) scale(1.4)" fill="none" stroke="#93CCE9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+  </g>
+</g>
+
+<!-- Section Heading -->
+<g transform="translate(126, 70)">
+  <text x="0" y="0" class="sans" font-size="44" font-weight="800" fill="#F0F6FC">Let's Connect</text>
+  <text x="0" y="38" class="sans" font-size="20" fill="#93CCE9">Open to software engineering roles, freelance web development, and AI collaboration.</text>
+</g>
+
+<!-- Glowing Divider Line Across -->
+<line x1="20" y1="155" x2="1580" y2="155" stroke="url(#lineGlow)" stroke-width="2" />
+<circle cx="800" cy="155" r="4" fill="#38bdf8" />
+<circle cx="800" cy="155" r="8" fill="#1683DF" opacity="0.3" class="br" />
+
+</svg>

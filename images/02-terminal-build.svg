@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 580" width="100%" height="100%">
+<defs>
+  <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#070c18" />
+    <stop offset="100%" stop-color="#0a1429" />
+  </linearGradient>
+  <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#93CCE9" />
+    <stop offset="50%" stop-color="#1683DF" />
+    <stop offset="100%" stop-color="#38bdf8" />
+  </linearGradient>
+  <filter id="glowBlue" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="6" result="blur" />
+    <feComposite in="SourceGraphic" in2="blur" operator="over" />
+  </filter>
+  <pattern id="cardGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+    <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1683DF" stroke-width="0.5" opacity="0.08" />
+  </pattern>
+</defs>
+
+<style>
+  @keyframes bl { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+  @keyframes pu { 0%, 100% { opacity: 0.95; } 50% { opacity: 0.35; } }
+  @keyframes tailWag { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(8deg); } }
+  @keyframes catEye { 0%, 92%, 100% { transform: scaleY(1); } 96% { transform: scaleY(0.1); } }
+  .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Courier New', monospace; }
+  .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+  .bl { animation: bl 1s steps(1) infinite; }
+  .pu { animation: pu 2.4s ease-in-out infinite; }
+  .wag { transform-origin: 1470px 480px; animation: tailWag 3.2s ease-in-out infinite; }
+  .ey { transform-box: fill-box; transform-origin: center; animation: catEye 4.5s infinite; }
+</style>
+
+<rect width="1600" height="580" fill="#050811" />
+
+<!-- ==================== LEFT COLUMN: TERMINAL WINDOW ==================== -->
+<g transform="translate(30, 25)">
+  <!-- Outer Terminal Window Frame -->
+  <rect width="740" height="530" rx="14" fill="url(#cardBg)" stroke="#1683DF" stroke-width="2" opacity="0.9" />
+  <rect width="740" height="530" rx="14" fill="url(#cardGrid)" />
+  <rect width="732" height="522" x="4" y="4" rx="12" fill="none" stroke="#93CCE9" stroke-width="1" opacity="0.2" />
+
+  <!-- Terminal Title Bar -->
+  <path d="M 0 14 C 0 6.27 6.27 0 14 0 L 726 0 C 733.73 0 740 6.27 740 14 L 740 42 L 0 42 Z" fill="#0d1b36" />
+  <line x1="0" y1="42" x2="740" y2="42" stroke="#1683DF" stroke-width="1.2" opacity="0.6" />
+
+  <!-- Window Action Buttons -->
+  <circle cx="22" cy="21" r="6" fill="#EF4444" />
+  <circle cx="42" cy="21" r="6" fill="#F59E0B" />
+  <circle cx="62" cy="21" r="6" fill="#10B981" />
+
+  <!-- Title -->
+  <text x="370" y="27" class="mono" font-size="13" font-weight="600" fill="#93CCE9" text-anchor="middle" letter-spacing="1">makinity@dev:~$ whoami</text>
+
+  <!-- Terminal Content Lines -->
+  <g transform="translate(28, 76)">
+    <!-- Prompt -->
+    <text x="0" y="0" class="mono" font-size="15" fill="#1683DF" font-weight="700">makinity@dev:~$</text>
+    <text x="145" y="0" class="mono" font-size="15" fill="#F0F6FC"> whoami</text>
+
+    <!-- Key-Value Output -->
+    <g transform="translate(0, 32)" class="mono" font-size="13.5">
+      <text x="0" y="0" fill="#93CCE9" font-weight="600">USER</text>
+      <text x="135" y="0" fill="#7d93b2">=</text>
+      <text x="155" y="0" fill="#F0F6FC">makinity <tspan fill="#93CCE9">(Mark Vencent Juntilla)</tspan></text>
+
+      <text x="0" y="26" fill="#93CCE9" font-weight="600">ROLE</text>
+      <text x="135" y="26" fill="#7d93b2">=</text>
+      <text x="155" y="26" fill="#F0F6FC">Software Engineer | AI Specialist</text>
+
+      <text x="0" y="52" fill="#93CCE9" font-weight="600">STATUS</text>
+      <text x="135" y="52" fill="#7d93b2">=</text>
+      <text x="155" y="52" fill="#38bdf8">4th-Year BSIT <tspan fill="#7d93b2">·</tspan> Davao del Sur, PH</text>
+
+      <text x="0" y="78" fill="#93CCE9" font-weight="600">WORK</text>
+      <text x="135" y="78" fill="#7d93b2">=</text>
+      <text x="155" y="78" fill="#F0F6FC">GM Int'l Commerce LLC <tspan fill="#7d93b2">(AI Video)</tspan></text>
+
+      <text x="0" y="104" fill="#93CCE9" font-weight="600">BRAND</text>
+      <text x="135" y="104" fill="#7d93b2">=</text>
+      <text x="155" y="104" fill="#1683DF" font-weight="700">MakiSync <tspan fill="#7d93b2">(Digital Solutions)</tspan></text>
+
+      <text x="0" y="130" fill="#93CCE9" font-weight="600">STACK</text>
+      <text x="135" y="130" fill="#7d93b2">=</text>
+      <text x="155" y="130" fill="#F0F6FC">Laravel, React, Next.js, Python, TS</text>
+
+      <text x="0" y="156" fill="#93CCE9" font-weight="600">ARCH</text>
+      <text x="135" y="156" fill="#7d93b2">=</text>
+      <text x="155" y="156" fill="#F0F6FC">Modular, Planning-First, Maintainable</text>
+
+      <text x="0" y="182" fill="#93CCE9" font-weight="600">MINDSET</text>
+      <text x="135" y="182" fill="#7d93b2">=</text>
+      <text x="155" y="182" fill="#22C55E" font-weight="600">Plan First → Build Right → Scale Fast</text>
+    </g>
+
+    <!-- Divider Line -->
+    <line x1="0" y1="240" x2="684" y2="240" stroke="#1683DF" stroke-width="1" stroke-dasharray="4 4" opacity="0.4" />
+
+    <!-- Second Command -->
+    <g transform="translate(0, 272)">
+      <text x="0" y="0" class="mono" font-size="15" fill="#1683DF" font-weight="700">makinity@dev:~$</text>
+      <text x="145" y="0" class="mono" font-size="15" fill="#F0F6FC"> cat ./status.txt</text>
+
+      <rect x="0" y="18" width="684" height="68" rx="8" fill="#0d1f3d" stroke="#1683DF" stroke-width="1" opacity="0.6" />
+      <text x="18" y="44" class="mono" font-size="13" fill="#93CCE9">⚡ Currently building:</text>
+      <text x="18" y="68" class="mono" font-size="13.5" font-weight="600" fill="#22C55E">● KyroPad · BoardEase · Smart PMS · AI Ad Automations</text>
+    </g>
+
+    <!-- Active Prompt with Blinking Cursor -->
+    <g transform="translate(0, 390)">
+      <text x="0" y="0" class="mono" font-size="15" fill="#1683DF" font-weight="700">makinity@dev:~$</text>
+      <rect x="150" y="-14" width="10" height="18" fill="#1683DF" class="bl" />
+    </g>
+  </g>
+</g>
+
+<!-- ==================== RIGHT COLUMN: WHAT I BUILD + CYBER CAT ==================== -->
+<g transform="translate(800, 25)">
+  <!-- Outer Card Frame -->
+  <rect width="770" height="530" rx="14" fill="url(#cardBg)" stroke="#1683DF" stroke-width="2" opacity="0.9" />
+  <rect width="770" height="530" rx="14" fill="url(#cardGrid)" />
+  <rect width="762" height="522" x="4" y="4" rx="12" fill="none" stroke="#93CCE9" stroke-width="1" opacity="0.2" />
+
+  <!-- Section Title -->
+  <g transform="translate(40, 56)">
+    <text x="0" y="0" class="sans" font-size="38" font-weight="800" fill="#F0F6FC">What I </text>
+    <text x="128" y="0" class="sans" font-size="38" font-weight="800" fill="url(#neonBlue)">Build</text>
+    <text x="0" y="32" class="sans" font-size="15" fill="#8ea4c8">I build scalable software solutions combining clean engineering with AI &amp; product thinking.</text>
+  </g>
+
+  <!-- Feature Bullets (3 items) -->
+  <g transform="translate(40, 130)">
+    <!-- Item 1: Full-Stack Web & Mobile -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="46" height="46" rx="10" fill="#0c1d3b" stroke="#1683DF" stroke-width="1.5" />
+      <!-- Code Icon -->
+      <path d="M 17 18 L 11 23 L 17 28 M 29 18 L 35 23 L 29 28 M 25 14 L 21 32" fill="none" stroke="#93CCE9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="62" y="20" class="sans" font-size="17" font-weight="700" fill="#F0F6FC">Full-Stack &amp; Cross-Platform Applications</text>
+      <text x="62" y="38" class="sans" font-size="13.5" fill="#8ea4c8">Production web &amp; mobile apps with Laravel, React, Next.js, Expo &amp; C#</text>
+    </g>
+
+    <!-- Item 2: AI & ML Systems -->
+    <g transform="translate(0, 72)">
+      <rect x="0" y="0" width="46" height="46" rx="10" fill="#0c1d3b" stroke="#1683DF" stroke-width="1.5" />
+      <!-- AI / Sparkles Icon -->
+      <path d="M 23 11 L 25 19 L 33 21 L 25 23 L 23 31 L 21 23 L 13 21 L 21 19 Z" fill="#93CCE9" opacity="0.9" />
+      <text x="62" y="20" class="sans" font-size="17" font-weight="700" fill="#F0F6FC">AI Integration &amp; Automation Pipelines</text>
+      <text x="62" y="38" class="sans" font-size="13.5" fill="#8ea4c8">Gemini API, Groq, smart agents, and high-converting AI video pipelines</text>
+    </g>
+
+    <!-- Item 3: Planning-First Architecture -->
+    <g transform="translate(0, 144)">
+      <rect x="0" y="0" width="46" height="46" rx="10" fill="#0c1d3b" stroke="#1683DF" stroke-width="1.5" />
+      <!-- Architecture / Layers Icon -->
+      <polygon points="23,12 34,18 23,24 12,18" fill="none" stroke="#93CCE9" stroke-width="2" />
+      <polyline points="12,23 23,29 34,23" fill="none" stroke="#1683DF" stroke-width="2" />
+      <polyline points="12,28 23,34 34,28" fill="none" stroke="#38bdf8" stroke-width="2" />
+      <text x="62" y="20" class="sans" font-size="17" font-weight="700" fill="#F0F6FC">Planning-First Architecture</text>
+      <text x="62" y="38" class="sans" font-size="13.5" fill="#8ea4c8">Designing maintainable databases, REST APIs, and scalable infrastructure</text>
+    </g>
+  </g>
+
+  <!-- ==================== THE CYBER CAT SECTION 🐱⚡ ==================== -->
+  <g transform="translate(40, 360)">
+    <!-- Cat Terminal Banner -->
+    <rect x="0" y="0" width="690" height="135" rx="12" fill="#08142a" stroke="#1683DF" stroke-width="1.5" />
+    <rect x="0" y="0" width="690" height="30" rx="12" fill="#0e1f3d" />
+    <line x1="0" y1="30" x2="690" y2="30" stroke="#1683DF" stroke-width="1" opacity="0.4" />
+    
+    <!-- Window Dots -->
+    <circle cx="16" cy="15" r="4.5" fill="#EF4444" />
+    <circle cx="30" cy="15" r="4.5" fill="#F59E0B" />
+    <circle cx="44" cy="15" r="4.5" fill="#10B981" />
+    <text x="60" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9">cat_vibe.sh - active session</text>
+
+    <!-- Info text beside cat -->
+    <g transform="translate(24, 52)">
+      <text x="0" y="14" class="mono" font-size="14" font-weight="700" fill="#22C55E">● VIBE: CODING &amp; CHILLING</text>
+      <text x="0" y="38" class="mono" font-size="13" fill="#F0F6FC">"Software starts with planning,</text>
+      <text x="0" y="58" class="mono" font-size="13" fill="#93CCE9"> fueled by coffee and cats." 🐾</text>
+    </g>
+
+    <!-- CYBER CAT VECTOR ART -->
+    <g transform="translate(520, 22)">
+      <!-- Cat Platform Pedestal -->
+      <ellipse cx="90" cy="98" rx="60" ry="10" fill="#0c2044" stroke="#1683DF" stroke-width="1.5" />
+
+      <!-- Animated Tail (wagging) -->
+      <path class="wag" d="M 125 75 Q 155 70 150 45 Q 146 35 135 42" fill="none" stroke="#1683DF" stroke-width="5" stroke-linecap="round" />
+
+      <!-- Cat Body -->
+      <path d="M 65 92 Q 60 55 85 50 Q 110 55 115 92 Z" fill="#0a1832" stroke="#1683DF" stroke-width="2" />
+      <path d="M 75 90 Q 72 65 88 62 Q 104 65 105 90 Z" fill="#10254c" />
+
+      <!-- Cat Head -->
+      <circle cx="88" cy="44" r="24" fill="#0c2044" stroke="#1683DF" stroke-width="2" />
+
+      <!-- Left Ear (glowing inner) -->
+      <polygon points="68,34 60,10 80,24" fill="#0a1832" stroke="#1683DF" stroke-width="2" />
+      <polygon points="69,30 64,15 77,24" fill="#1683DF" opacity="0.6" class="pu" />
+
+      <!-- Right Ear (glowing inner) -->
+      <polygon points="108,34 116,10 96,24" fill="#0a1832" stroke="#1683DF" stroke-width="2" />
+      <polygon points="107,30 112,15 99,24" fill="#1683DF" opacity="0.6" class="pu" />
+
+      <!-- Cat Eyes (Blinking cyan glow) -->
+      <g class="ey">
+        <ellipse cx="78" cy="42" rx="4.5" ry="6" fill="#38bdf8" filter="url(#glowBlue)" />
+        <ellipse cx="78" cy="42" rx="2" ry="5" fill="#050811" />
+        <ellipse cx="98" cy="42" rx="4.5" ry="6" fill="#38bdf8" filter="url(#glowBlue)" />
+        <ellipse cx="98" cy="42" rx="2" ry="5" fill="#050811" />
+      </g>
+
+      <!-- Cat Cyber Visor Line / Collar -->
+      <path d="M 72 58 Q 88 64 104 58" fill="none" stroke="#22C55E" stroke-width="2.5" />
+      <circle cx="88" cy="62" r="3" fill="#22C55E" class="pu" />
+
+      <!-- Cute Cyber Whiskers -->
+      <line x1="66" y1="48" x2="48" y2="44" stroke="#93CCE9" stroke-width="1.2" opacity="0.8" />
+      <line x1="66" y1="52" x2="46" y2="54" stroke="#93CCE9" stroke-width="1.2" opacity="0.8" />
+      <line x1="110" y1="48" x2="128" y2="44" stroke="#93CCE9" stroke-width="1.2" opacity="0.8" />
+      <line x1="110" y1="52" x2="130" y2="54" stroke="#93CCE9" stroke-width="1.2" opacity="0.8" />
+    </g>
+  </g>
+</g>
+
+</svg>
