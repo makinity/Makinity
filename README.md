@@ -199,6 +199,42 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 </td>
 <td width="50%" valign="top">
 
+### 🎬 Caption Remover
+
+> A Python tool that **removes burned-in subtitles and captions** from videos using AI inpainting (LaMa) — no OCR, no external API, fully local.
+
+<br/>
+
+**Stack:**
+<br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Gradio-FF7C00?style=flat-square&logo=gradio&logoColor=white" alt="Gradio" />
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+<img src="https://img.shields.io/badge/LaMa_AI-000000?style=flat-square&logoColor=white" alt="LaMa" />
+<img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+
+<br/>
+
+**Highlights:**
+- 🤖 AI inpainting with LaMa — reconstructs background under captions
+- 🖱️ Interactive ROI selector — drag to pick subtitle region visually
+- 🎨 Dual color mode — handles white & black burned-in text
+- 🔊 Original audio preserved automatically via FFmpeg
+- ⚡ GPU auto-detect — CUDA → Apple Silicon MPS → CPU fallback
+- 🌐 Web UI via Gradio + Docker-ready for deployment
+
+<br/>
+
+<a href="https://github.com/makinity/caption-remover">
+  <img src="https://img.shields.io/badge/📂_View_Repo-111f42?style=for-the-badge" alt="Repo" />
+</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 🏠 BoardEase
 
 > A full-stack boarding house management system that handles the complete rental lifecycle: **search → reserve → rent → bill → pay**.
@@ -234,8 +270,6 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 </a>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 📊 Smart PMS
@@ -271,6 +305,8 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 </a>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🎯 JobHunter AI
@@ -304,8 +340,6 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 </a>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🌐 MakiSync
@@ -340,6 +374,8 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 </a>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🍗 Chicken Express
@@ -374,8 +410,6 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 </a>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### ☕ Maki Coffee Co.
