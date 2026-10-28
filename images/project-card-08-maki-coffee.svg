@@ -6,16 +6,6 @@
       <stop offset="50%" stop-color="#0a1428" />
       <stop offset="100%" stop-color="#060b17" />
     </linearGradient>
-    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#93CCE9" />
-      <stop offset="50%" stop-color="#1683DF" />
-      <stop offset="100%" stop-color="#38bdf8" />
-    </linearGradient>
-    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="60%" stop-color="#f0f6fc" />
-      <stop offset="100%" stop-color="#93CCE9" />
-    </linearGradient>
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="5" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
@@ -29,7 +19,7 @@
     .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
     .title { font-weight: 700; fill: #f0f6fc; }
     .sub { fill: #93CCE9; }
-    .text { fill: #c9d1d9; font-size: 15px; }
+    .text { fill: #c9d1d9; font-size: 14px; }
   </style>
 
   <!-- Card Background -->
@@ -47,42 +37,44 @@
 
   <!-- Tagline blockquote box -->
   <g transform="translate(32, 60)">
-    <rect width="716" height="68" rx="6" fill="#091428" stroke="#1683DF" stroke-width="1" opacity="0.7" />
-    <path d="M 0 0 V 68" stroke="#1683DF" stroke-width="3.5" />
+    <rect width="716" height="66" rx="6" fill="#091428" stroke="#1683DF" stroke-width="1" opacity="0.7" />
+    <path d="M 0 0 V 66" stroke="#1683DF" stroke-width="3.5" />
     <text x="16" y="24" class="sans" font-size="13" font-style="italic" fill="#8b949e">
       A full Shopify theme built from scratch for a fictional specialty coffee brand — productio...
     </text>
-    <text x="16" y="46" class="sans" font-size="13" font-style="italic" fill="#8b949e">
-      n-ready, fully branded, and portfolio-grade.
-    </text>
   </g>
 
-  <!-- Stack Section -->
-  <text x="32" y="152" class="mono sub" font-size="12" font-weight="700">TECH STACK:</text>
+  <!-- Stack Section with Branded Icons -->
+  <text x="32" y="142" class="mono sub" font-size="11" font-weight="700">TECH STACK:</text>
   
       <g transform="translate(32, 150)">
-        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
-        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">Shopify</text>
+        <rect width="95" height="28" rx="6" fill="#060b17" stroke="#96BF48" stroke-width="1.2" />
+        <g transform="translate(14, 14)"><path d="M-2,-3 C-2,-5 2,-5 2,-3 M-4.5,-2 L4.5,-2 L3.5,6 L-3.5,6 Z" fill="#96BF48"/><text x="0" y="3" font-family="sans-serif" font-size="5" font-weight="900" fill="#091428" text-anchor="middle">S</text></g>
+        <text x="25" y="18" class="mono" font-size="11" font-weight="600" fill="#f0f6fc">Shopify</text>
       </g>
     
-      <g transform="translate(172, 150)">
-        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
-        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">Liquid</text>
+      <g transform="translate(137, 150)">
+        <rect width="85" height="28" rx="6" fill="#060b17" stroke="#008CDD" stroke-width="1.2" />
+        <g transform="translate(14, 14)"><path d="M0,-5.5 C2,-2.5 3.5,0 3.5,2 C3.5,4 1.8,5.5 0,5.5 C-1.8,5.5 -3.5,4 -3.5,2 C-3.5,0 -2,-2.5 0,-5.5 Z" fill="#008CDD"/></g>
+        <text x="25" y="18" class="mono" font-size="11" font-weight="600" fill="#f0f6fc">Liquid</text>
       </g>
     
-      <g transform="translate(312, 150)">
-        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
-        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">CSS3</text>
+      <g transform="translate(232, 150)">
+        <rect width="80" height="28" rx="6" fill="#060b17" stroke="#1572B6" stroke-width="1.2" />
+        <g transform="translate(14, 14)"><path d="M-5.5,-6 L5.5,-6 L4.5,4.5 L0,6 L-4.5,4.5 Z" fill="#1572B6"/><text x="0" y="2.5" font-family="sans-serif" font-size="6" font-weight="900" fill="#ffffff" text-anchor="middle">3</text></g>
+        <text x="25" y="18" class="mono" font-size="11" font-weight="600" fill="#f0f6fc">CSS3</text>
       </g>
     
-      <g transform="translate(452, 150)">
-        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
-        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">JavaScript</text>
+      <g transform="translate(322, 150)">
+        <rect width="115" height="28" rx="6" fill="#060b17" stroke="#F7DF1E" stroke-width="1.2" />
+        <g transform="translate(14, 14)"><rect x="-6" y="-6" width="12" height="12" rx="1.5" fill="#F7DF1E"/><text x="1.5" y="3.5" font-family="sans-serif" font-size="7" font-weight="900" fill="#000000" text-anchor="end">JS</text></g>
+        <text x="25" y="18" class="mono" font-size="11" font-weight="600" fill="#f0f6fc">JavaScript</text>
       </g>
     
-      <g transform="translate(592, 150)">
-        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
-        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">Groq API</text>
+      <g transform="translate(447, 150)">
+        <rect width="100" height="28" rx="6" fill="#060b17" stroke="#FF6B00" stroke-width="1.2" />
+        <g transform="translate(14, 14)"><rect x="-5" y="-5" width="10" height="10" rx="1.5" fill="none" stroke="#FF6B00" stroke-width="1.1"/><circle cx="0" cy="0" r="1.8" fill="#FF6B00"/></g>
+        <text x="25" y="18" class="mono" font-size="11" font-weight="600" fill="#f0f6fc">Groq API</text>
       </g>
     
 
@@ -90,7 +82,7 @@
   <line x1="32" y1="216" x2="748" y2="216" stroke="#1683DF" stroke-width="1" opacity="0.3" />
 
   <!-- Highlights -->
-  <text x="32" y="238" class="mono sub" font-size="12" font-weight="700">HIGHLIGHTS:</text>
+  <text x="32" y="236" class="mono sub" font-size="11" font-weight="700">HIGHLIGHTS:</text>
   <text x="36" y="250" class="sans text" font-size="14" fill="#c9d1d9">• Full brand system — CSS tokens, Playfair Display</text><text x="36" y="276" class="sans text" font-size="14" fill="#c9d1d9">• 🛍️ Custom sections with Shopify schema &amp; block repeaters</text><text x="36" y="302" class="sans text" font-size="14" fill="#c9d1d9">• Product page with gallery, variant picker &amp; quantity stepper</text><text x="36" y="328" class="sans text" font-size="14" fill="#c9d1d9">• AJAX add-to-cart with live cart count feedback</text><text x="36" y="354" class="sans text" font-size="14" fill="#c9d1d9">• Floating AI chatbot widget wired to Groq API proxy</text><text x="36" y="380" class="sans text" font-size="14" fill="#c9d1d9">• Scroll-triggered animations via IntersectionObserver</text>
 
   <!-- Bottom Action Button Banner -->

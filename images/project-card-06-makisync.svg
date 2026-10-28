@@ -6,16 +6,6 @@
       <stop offset="50%" stop-color="#0a1428" />
       <stop offset="100%" stop-color="#060b17" />
     </linearGradient>
-    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#93CCE9" />
-      <stop offset="50%" stop-color="#1683DF" />
-      <stop offset="100%" stop-color="#38bdf8" />
-    </linearGradient>
-    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="60%" stop-color="#f0f6fc" />
-      <stop offset="100%" stop-color="#93CCE9" />
-    </linearGradient>
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="5" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
@@ -29,7 +19,7 @@
     .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
     .title { font-weight: 700; fill: #f0f6fc; }
     .sub { fill: #93CCE9; }
-    .text { fill: #c9d1d9; font-size: 15px; }
+    .text { fill: #c9d1d9; font-size: 14px; }
   </style>
 
   <!-- Card Background -->
@@ -47,37 +37,38 @@
 
   <!-- Tagline blockquote box -->
   <g transform="translate(32, 60)">
-    <rect width="716" height="68" rx="6" fill="#091428" stroke="#1683DF" stroke-width="1" opacity="0.7" />
-    <path d="M 0 0 V 68" stroke="#1683DF" stroke-width="3.5" />
+    <rect width="716" height="66" rx="6" fill="#091428" stroke="#1683DF" stroke-width="1" opacity="0.7" />
+    <path d="M 0 0 V 66" stroke="#1683DF" stroke-width="3.5" />
     <text x="16" y="24" class="sans" font-size="13" font-style="italic" fill="#8b949e">
       My personal brand portfolio website — a modern, minimal landing page showcasing services, ...
     </text>
-    <text x="16" y="46" class="sans" font-size="13" font-style="italic" fill="#8b949e">
-      projects, and professional capabilities.
-    </text>
   </g>
 
-  <!-- Stack Section -->
-  <text x="32" y="152" class="mono sub" font-size="12" font-weight="700">TECH STACK:</text>
+  <!-- Stack Section with Branded Icons -->
+  <text x="32" y="142" class="mono sub" font-size="11" font-weight="700">TECH STACK:</text>
   
       <g transform="translate(32, 150)">
-        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
-        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">Next.js</text>
+        <rect width="95" height="28" rx="6" fill="#060b17" stroke="#f0f6fc" stroke-width="1.2" />
+        <g transform="translate(14, 14)"><circle cx="0" cy="0" r="7" fill="#000000" stroke="#f0f6fc" stroke-width="0.7"/><path d="M-3,4 L-3,-4 L-1.5,-4 L2.5,2 L2.5,-4 L3.5,-4 L3.5,4 L2,4 L-2,-2 L-2,4 Z" fill="#ffffff"/></g>
+        <text x="25" y="18" class="mono" font-size="11" font-weight="600" fill="#f0f6fc">Next.js</text>
       </g>
     
-      <g transform="translate(172, 150)">
-        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
-        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">TypeScript</text>
+      <g transform="translate(137, 150)">
+        <rect width="110" height="28" rx="6" fill="#060b17" stroke="#3178C6" stroke-width="1.2" />
+        <g transform="translate(14, 14)"><rect x="-6.5" y="-6.5" width="13" height="13" rx="1.5" fill="#3178C6"/><text x="0" y="3.5" font-family="sans-serif" font-size="7.5" font-weight="900" fill="#ffffff" text-anchor="middle">TS</text></g>
+        <text x="25" y="18" class="mono" font-size="11" font-weight="600" fill="#f0f6fc">TypeScript</text>
       </g>
     
-      <g transform="translate(312, 150)">
-        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
-        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">Vercel</text>
+      <g transform="translate(257, 150)">
+        <rect width="90" height="28" rx="6" fill="#060b17" stroke="#f0f6fc" stroke-width="1.2" />
+        <g transform="translate(14, 14)"><polygon points="0,-5.5 6,4 -6,4" fill="#f0f6fc"/></g>
+        <text x="25" y="18" class="mono" font-size="11" font-weight="600" fill="#f0f6fc">Vercel</text>
       </g>
     
-      <g transform="translate(452, 150)">
-        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
-        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">Tailwind</text>
+      <g transform="translate(357, 150)">
+        <rect width="100" height="28" rx="6" fill="#060b17" stroke="#06B6D4" stroke-width="1.2" />
+        <g transform="translate(14, 14)"><path d="M-6,1 C-5,-2 -2,-2 0,0.5 C1.5,2.5 4,2.5 5.5,0.8 C4.5,3 2,3 0.5,1.5 C-1,-0.5 -3.5,-0.5 -5,1 Z" fill="#06B6D4"/></g>
+        <text x="25" y="18" class="mono" font-size="11" font-weight="600" fill="#f0f6fc">Tailwind</text>
       </g>
     
 
@@ -85,7 +76,7 @@
   <line x1="32" y1="216" x2="748" y2="216" stroke="#1683DF" stroke-width="1" opacity="0.3" />
 
   <!-- Highlights -->
-  <text x="32" y="238" class="mono sub" font-size="12" font-weight="700">HIGHLIGHTS:</text>
+  <text x="32" y="236" class="mono sub" font-size="11" font-weight="700">HIGHLIGHTS:</text>
   <text x="36" y="250" class="sans text" font-size="14" fill="#c9d1d9">• Consistent MakiSync branding (#1683DF, #93CCE9)</text><text x="36" y="276" class="sans text" font-size="14" fill="#c9d1d9">• Fully responsive design</text><text x="36" y="302" class="sans text" font-size="14" fill="#c9d1d9">• Deployed on Vercel</text><text x="36" y="328" class="sans text" font-size="14" fill="#c9d1d9">• Service showcase (SMM, VA, Web Dev)</text><text x="36" y="354" class="sans text" font-size="14" fill="#c9d1d9">• 📄 Project portfolio integration</text><text x="36" y="380" class="sans text" font-size="14" fill="#c9d1d9">• SEO-optimized</text>
 
   <!-- Bottom Action Button Banner -->

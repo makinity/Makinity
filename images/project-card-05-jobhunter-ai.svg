@@ -6,16 +6,6 @@
       <stop offset="50%" stop-color="#0a1428" />
       <stop offset="100%" stop-color="#060b17" />
     </linearGradient>
-    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#93CCE9" />
-      <stop offset="50%" stop-color="#1683DF" />
-      <stop offset="100%" stop-color="#38bdf8" />
-    </linearGradient>
-    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="60%" stop-color="#f0f6fc" />
-      <stop offset="100%" stop-color="#93CCE9" />
-    </linearGradient>
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="5" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
@@ -29,7 +19,7 @@
     .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
     .title { font-weight: 700; fill: #f0f6fc; }
     .sub { fill: #93CCE9; }
-    .text { fill: #c9d1d9; font-size: 15px; }
+    .text { fill: #c9d1d9; font-size: 14px; }
   </style>
 
   <!-- Card Background -->
@@ -47,42 +37,44 @@
 
   <!-- Tagline blockquote box -->
   <g transform="translate(32, 60)">
-    <rect width="716" height="68" rx="6" fill="#091428" stroke="#1683DF" stroke-width="1" opacity="0.7" />
-    <path d="M 0 0 V 68" stroke="#1683DF" stroke-width="3.5" />
+    <rect width="716" height="66" rx="6" fill="#091428" stroke="#1683DF" stroke-width="1" opacity="0.7" />
+    <path d="M 0 0 V 66" stroke="#1683DF" stroke-width="3.5" />
     <text x="16" y="24" class="sans" font-size="13" font-style="italic" fill="#8b949e">
-      An AI-powered personal automation system that monitors Facebook groups for SMM/VA freelanc...
-    </text>
-    <text x="16" y="46" class="sans" font-size="13" font-style="italic" fill="#8b949e">
-      e gigs and sends instant notifications via Telegram.
+      An AI-powered personal automation system that monitors Facebook groups for SMM/VA freelance...
     </text>
   </g>
 
-  <!-- Stack Section -->
-  <text x="32" y="152" class="mono sub" font-size="12" font-weight="700">TECH STACK:</text>
+  <!-- Stack Section with Branded Icons -->
+  <text x="32" y="142" class="mono sub" font-size="11" font-weight="700">TECH STACK:</text>
   
       <g transform="translate(32, 150)">
-        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
-        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">Node.js</text>
+        <rect width="95" height="28" rx="6" fill="#060b17" stroke="#339933" stroke-width="1.2" />
+        <g transform="translate(14, 14)"><polygon points="0,-6.5 6,-3 6,3 0,6.5 -6,3 -6,-3" fill="none" stroke="#339933" stroke-width="1.2"/><circle cx="0" cy="0" r="1.5" fill="#339933"/></g>
+        <text x="25" y="18" class="mono" font-size="11" font-weight="600" fill="#f0f6fc">Node.js</text>
       </g>
     
-      <g transform="translate(172, 150)">
-        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
-        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">Express.js</text>
+      <g transform="translate(137, 150)">
+        <rect width="110" height="28" rx="6" fill="#060b17" stroke="#f0f6fc" stroke-width="1.2" />
+        <g transform="translate(14, 14)"><text x="0" y="3" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="800" fill="#f0f6fc" text-anchor="middle">ex</text></g>
+        <text x="25" y="18" class="mono" font-size="11" font-weight="600" fill="#f0f6fc">Express.js</text>
       </g>
     
-      <g transform="translate(312, 150)">
-        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
-        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">Puppeteer</text>
+      <g transform="translate(257, 150)">
+        <rect width="110" height="28" rx="6" fill="#060b17" stroke="#00D8A2" stroke-width="1.2" />
+        <g transform="translate(14, 14)"><circle cx="-2.5" cy="-1.5" r="2" fill="#00D8A2"/><circle cx="2.5" cy="-1.5" r="2" fill="#00D8A2"/><path d="M-4,3 Q0,6 4,3" fill="none" stroke="#00D8A2" stroke-width="1.2"/></g>
+        <text x="25" y="18" class="mono" font-size="11" font-weight="600" fill="#f0f6fc">Puppeteer</text>
       </g>
     
-      <g transform="translate(452, 150)">
-        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
-        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">Groq</text>
+      <g transform="translate(377, 150)">
+        <rect width="80" height="28" rx="6" fill="#060b17" stroke="#FF6B00" stroke-width="1.2" />
+        <g transform="translate(14, 14)"><rect x="-5" y="-5" width="10" height="10" rx="1.5" fill="none" stroke="#FF6B00" stroke-width="1.1"/><circle cx="0" cy="0" r="1.8" fill="#FF6B00"/></g>
+        <text x="25" y="18" class="mono" font-size="11" font-weight="600" fill="#f0f6fc">Groq</text>
       </g>
     
-      <g transform="translate(592, 150)">
-        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
-        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">Telegram</text>
+      <g transform="translate(467, 150)">
+        <rect width="105" height="28" rx="6" fill="#060b17" stroke="#26A5E4" stroke-width="1.2" />
+        <g transform="translate(14, 14)"><path d="M-5,0 L5,-5 L2,5 L0,1 L-3,2 Z" fill="#26A5E4"/></g>
+        <text x="25" y="18" class="mono" font-size="11" font-weight="600" fill="#f0f6fc">Telegram</text>
       </g>
     
 
@@ -90,7 +82,7 @@
   <line x1="32" y1="216" x2="748" y2="216" stroke="#1683DF" stroke-width="1" opacity="0.3" />
 
   <!-- Highlights -->
-  <text x="32" y="238" class="mono sub" font-size="12" font-weight="700">HIGHLIGHTS:</text>
+  <text x="32" y="236" class="mono sub" font-size="11" font-weight="700">HIGHLIGHTS:</text>
   <text x="36" y="250" class="sans text" font-size="14" fill="#c9d1d9">• AI-powered job matching with Groq (LLaMA 3.1)</text><text x="36" y="276" class="sans text" font-size="14" fill="#c9d1d9">• Puppeteer-based Facebook scraper</text><text x="36" y="302" class="sans text" font-size="14" fill="#c9d1d9">• Telegram bot notifications</text><text x="36" y="328" class="sans text" font-size="14" fill="#c9d1d9">• Scheduled monitoring with GitHub Actions</text><text x="36" y="354" class="sans text" font-size="14" fill="#c9d1d9">• Match scoring &amp; skill profiling</text><text x="36" y="380" class="sans text" font-size="14" fill="#c9d1d9">• Auto cookie expiry reminders</text>
 
   <!-- Bottom Action Button Banner -->

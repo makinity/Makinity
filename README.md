@@ -63,37 +63,37 @@
 
 <p align="center">
   <a href="https://github.com/makinity/KyroPad">
-    <img src="images/project-01-kyropad.svg" alt="KyroPad" width="49%" />
+    <img src="images/project-card-01-kyropad.svg" alt="KyroPad" width="49%" />
   </a>
   <a href="https://github.com/makinity/Caption-Remover">
-    <img src="images/project-02-caption-remover.svg" alt="Caption Remover" width="49%" />
+    <img src="images/project-card-02-caption-remover.svg" alt="Caption Remover" width="49%" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/makinity/BoardEase-Mobile">
-    <img src="images/project-03-boardease.svg" alt="BoardEase" width="49%" />
+    <img src="images/project-card-03-boardease.svg" alt="BoardEase" width="49%" />
   </a>
   <a href="https://github.com/makinity/Smart-PMS">
-    <img src="images/project-04-smart-pms.svg" alt="Smart PMS" width="49%" />
+    <img src="images/project-card-04-smart-pms.svg" alt="Smart PMS" width="49%" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/makinity/jobhunter-ai">
-    <img src="images/project-05-jobhunter-ai.svg" alt="JobHunter AI" width="49%" />
+    <img src="images/project-card-05-jobhunter-ai.svg" alt="JobHunter AI" width="49%" />
   </a>
   <a href="https://maki-sync.vercel.app">
-    <img src="images/project-06-makisync.svg" alt="MakiSync" width="49%" />
+    <img src="images/project-card-06-makisync.svg" alt="MakiSync" width="49%" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/makinity/ChickenExpress">
-    <img src="images/project-07-chicken-express.svg" alt="Chicken Express" width="49%" />
+    <img src="images/project-card-07-chicken-express.svg" alt="Chicken Express" width="49%" />
   </a>
   <a href="https://github.com/makinity/Shopify-Coffe-Store">
-    <img src="images/project-08-maki-coffee.svg" alt="Maki Coffee Co." width="49%" />
+    <img src="images/project-card-08-maki-coffee.svg" alt="Maki Coffee Co." width="49%" />
   </a>
 </p>
 
