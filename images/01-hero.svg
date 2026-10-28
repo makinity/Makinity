@@ -106,14 +106,14 @@
 </g>
 
 <!-- Subtitle / Tagline from Original Banner -->
-<g transform="translate(84, 230)">
-  <text x="0" y="0" class="mono" font-size="22" font-weight="600" fill="#93CCE9" letter-spacing="4">FULL-STACK DEVELOPER · AI ENTHUSIAST · PROBLEM SOLVER</text>
+<g transform="translate(84, 232)">
+  <text x="0" y="0" class="mono" font-size="26" font-weight="700" fill="#93CCE9" letter-spacing="3.5">FULL-STACK DEVELOPER · AI ENTHUSIAST · PROBLEM SOLVER</text>
 </g>
 
 <!-- Quote from Knowledge Base &amp; Original Profile -->
-<g transform="translate(84, 288)">
-  <text x="0" y="0" class="mono" font-size="19" fill="#F0F6FC" opacity="0.9">"Software development begins with planning, not coding.</text>
-  <text x="0" y="28" class="mono" font-size="19" fill="#93CCE9" opacity="0.9"> Every great system starts with understanding the problem."</text>
+<g transform="translate(84, 292)">
+  <text x="0" y="0" class="mono" font-size="22" fill="#F0F6FC" opacity="0.95">"Software development begins with planning, not coding.</text>
+  <text x="0" y="32" class="mono" font-size="22" fill="#93CCE9" opacity="0.95"> Every great system starts with understanding the problem."</text>
 </g>
 
 <!-- Floating Cyber Philosophy Badge (Top Right) -->

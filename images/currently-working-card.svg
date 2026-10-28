@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 440" width="100%" height="100%">
+
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060b17" />
+      <stop offset="50%" stop-color="#0a1428" />
+      <stop offset="100%" stop-color="#060b17" />
+    </linearGradient>
+    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#93CCE9" />
+      <stop offset="50%" stop-color="#1683DF" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1683df" stroke-width="0.7" opacity="0.1" />
+    </pattern>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+    .title { font-weight: 700; fill: #f0f6fc; }
+    .sub { fill: #93CCE9; }
+    .text { fill: #c9d1d9; }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="1600" height="440" rx="16" fill="url(#cardBg)" stroke="#1683DF" stroke-width="2.2" opacity="0.95" />
+  <rect width="1600" height="440" rx="16" fill="url(#grid)" />
+
+  <!-- Corner Brackets -->
+  <path d="M 14 50 V 14 H 50 M 1550 14 H 1586 V 50 M 14 390 V 426 H 50 M 1550 426 H 1586 V 390" fill="none" stroke="#1683DF" stroke-width="4" />
+
+  <!-- Row 1 -->
+  
+    <g transform="translate(36, 36)">
+      <rect width="490" height="165" rx="14" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
+      <text x="28" y="46" class="sans title" font-size="24">🎓 Academics</text>
+      <text x="28" y="86" class="sans text" font-size="19" font-weight="600" fill="#f0f6fc">Completing BSIT degree</text>
+      <text x="28" y="122" class="mono sub" font-size="15" font-weight="700">Expected graduation: 2026</text>
+    </g>
+  
+  
+    <g transform="translate(555, 36)">
+      <rect width="490" height="165" rx="14" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
+      <text x="28" y="46" class="sans title" font-size="24">🏗️ BoardEase</text>
+      <text x="28" y="86" class="sans text" font-size="19" font-weight="600" fill="#f0f6fc">Full-stack boarding house system</text>
+      <text x="28" y="122" class="mono sub" font-size="15" font-weight="700">Desktop + Mobile + API</text>
+    </g>
+  
+  
+    <g transform="translate(1074, 36)">
+      <rect width="490" height="165" rx="14" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
+      <text x="28" y="46" class="sans title" font-size="24">🤖 AI Integration</text>
+      <text x="28" y="86" class="sans text" font-size="19" font-weight="600" fill="#f0f6fc">Learning ML &amp; AI patterns</text>
+      <text x="28" y="122" class="mono sub" font-size="15" font-weight="700">Gemini API, Groq, automation</text>
+    </g>
+  
+
+  <!-- Row 2 -->
+  
+    <g transform="translate(36, 235)">
+      <rect width="490" height="165" rx="14" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
+      <text x="28" y="46" class="sans title" font-size="24">☁️ Cloud &amp; DevOps</text>
+      <text x="28" y="86" class="sans text" font-size="19" font-weight="600" fill="#f0f6fc">AWS Cloud Practitioner</text>
+      <text x="28" y="122" class="mono sub" font-size="15" font-weight="700">Building deployment skills</text>
+    </g>
+  
+  
+    <g transform="translate(555, 235)">
+      <rect width="490" height="165" rx="14" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
+      <text x="28" y="46" class="sans title" font-size="24">💼 Freelancing</text>
+      <text x="28" y="86" class="sans text" font-size="19" font-weight="600" fill="#f0f6fc">SMM &amp; VA services</text>
+      <text x="28" y="122" class="mono sub" font-size="15" font-weight="700">Building portfolio &amp; clients</text>
+    </g>
+  
+  
+    <g transform="translate(1074, 235)">
+      <rect width="490" height="165" rx="14" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
+      <text x="28" y="46" class="sans title" font-size="24">🚀 MakiSync</text>
+      <text x="28" y="86" class="sans text" font-size="19" font-weight="600" fill="#f0f6fc">Expanding personal brand</text>
+      <text x="28" y="122" class="mono sub" font-size="15" font-weight="700">Services, portfolio, products</text>
+    </g>
+  
+</svg>

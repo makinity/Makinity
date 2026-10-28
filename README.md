@@ -26,7 +26,7 @@
 ## About Me
 
 <p align="center">
-  <img src="images/02-about-me.svg" alt="About Me" width="100%" />
+  <img src="images/about-me-card.svg" alt="About Me" width="100%" />
 </p>
 
 <br/>
@@ -38,7 +38,7 @@
 ## 💡 Developer Philosophy
 
 <p align="center">
-  <img src="images/03-philosophy.svg" alt="Developer Philosophy" width="100%" />
+  <img src="images/philosophy-card.svg" alt="Developer Philosophy" width="100%" />
 </p>
 
 <br/>
@@ -63,37 +63,37 @@
 
 <p align="center">
   <a href="https://github.com/makinity/KyroPad">
-    <img src="images/project-card-01-kyropad.svg" alt="KyroPad" width="49%" />
+    <img src="images/card-01-kyropad.svg" alt="KyroPad" width="49%" />
   </a>
   <a href="https://github.com/makinity/Caption-Remover">
-    <img src="images/project-card-02-caption-remover.svg" alt="Caption Remover" width="49%" />
+    <img src="images/card-02-caption-remover.svg" alt="Caption Remover" width="49%" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/makinity/BoardEase-Mobile">
-    <img src="images/project-card-03-boardease.svg" alt="BoardEase" width="49%" />
+    <img src="images/card-03-boardease.svg" alt="BoardEase" width="49%" />
   </a>
   <a href="https://github.com/makinity/Smart-PMS">
-    <img src="images/project-card-04-smart-pms.svg" alt="Smart PMS" width="49%" />
+    <img src="images/card-04-smart-pms.svg" alt="Smart PMS" width="49%" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/makinity/jobhunter-ai">
-    <img src="images/project-card-05-jobhunter-ai.svg" alt="JobHunter AI" width="49%" />
+    <img src="images/card-05-jobhunter-ai.svg" alt="JobHunter AI" width="49%" />
   </a>
   <a href="https://maki-sync.vercel.app">
-    <img src="images/project-card-06-makisync.svg" alt="MakiSync" width="49%" />
+    <img src="images/card-06-makisync.svg" alt="MakiSync" width="49%" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/makinity/ChickenExpress">
-    <img src="images/project-card-07-chicken-express.svg" alt="Chicken Express" width="49%" />
+    <img src="images/card-07-chicken-express.svg" alt="Chicken Express" width="49%" />
   </a>
   <a href="https://github.com/makinity/Shopify-Coffe-Store">
-    <img src="images/project-card-08-maki-coffee.svg" alt="Maki Coffee Co." width="49%" />
+    <img src="images/card-08-maki-coffee.svg" alt="Maki Coffee Co." width="49%" />
   </a>
 </p>
 
@@ -171,7 +171,7 @@
 ## 🏅 Certifications
 
 <p align="center">
-  <img src="images/05-certifications.svg" alt="Certifications" width="100%" />
+  <img src="images/certifications-card.svg" alt="Certifications" width="100%" />
 </p>
 
 <br/>
@@ -183,7 +183,7 @@
 ## 🧠 What I'm Currently Working On
 
 <p align="center">
-  <img src="images/06-currently-working.svg" alt="What I'm Currently Working On" width="100%" />
+  <img src="images/currently-working-card.svg" alt="What I'm Currently Working On" width="100%" />
 </p>
 
 <br/>
