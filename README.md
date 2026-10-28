@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/makinity">
-    <img src="images/01-hero.svg" alt="Mark Vencent L. Juntilla" width="100%" />
+    <img src="images/01-hero.svg" alt="Mark Vencent L. Juntilla - Full-Stack Developer &amp; AI Enthusiast" width="100%" />
   </a>
 </p>
 
@@ -10,11 +10,11 @@
 
 <p align="center">
   <a href="https://github.com/makinity">
-    <img src="https://komarev.com/ghpvc/?username=makinity&label=Profile%20Views&color=1683DF&style=flat" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=makinity&label=Profile%20Views&color=1683DF&style=flat-square" alt="Profile Views" />
   </a>
-  <img src="https://img.shields.io/badge/BSIT-4th_Year-1683DF?style=flat&labelColor=111f42" alt="Education" />
-  <img src="https://img.shields.io/badge/Philippines-93CCE9?style=flat&labelColor=111f42" alt="Location" />
-  <img src="https://img.shields.io/badge/🟢-Open%20to%20Work-22C55E?style=flat&labelColor=111f42" alt="Open to Work" />
+  <img src="https://img.shields.io/badge/BSIT-4th_Year-1683DF?style=flat-square&labelColor=060b17" alt="Education" />
+  <img src="https://img.shields.io/badge/Philippines-93CCE9?style=flat-square&labelColor=060b17" alt="Location" />
+  <img src="https://img.shields.io/badge/🟢-Open%20to%20Work-22C55E?style=flat-square&labelColor=060b17" alt="Open to Work" />
 </p>
 
 <br/>
@@ -25,24 +25,9 @@
 
 ## About Me
 
-<table>
-<tr>
-<td width="130" align="center" style="background:#091428; border:1px solid #1683DF44; border-radius:12px; padding:16px;">
-  <img src="assets/cat-dance.webp" alt="Dancing Cat" width="100" style="border-radius:12px; border:2px solid #1683DF; box-shadow:0 0 15px rgba(22,131,223,0.4);" />
-</td>
-<td style="background:#091428; border:1px solid #1683DF44; border-radius:12px; padding:20px;">
-
-I'm a fourth-year **BSIT student** and **full-stack developer** from the Philippines, passionate about building software that solves real-world problems.
-
-I specialize in **Laravel**, **React.js**, **Next.js**, and **React Native**, with growing expertise in **AI integration**, **system architecture**, and **cloud technologies**. I approach every project with a planning-first mindset — understanding the problem before writing a single line of code.
-
-When I'm not coding, I'm probably learning something new, automating my workflows, or helping businesses grow through **Social Media Management** and **Virtual Assistance**.
-
-**What drives me:** Building technology that makes a difference. Every project is an opportunity to learn, improve, and create something meaningful.
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="images/02-about-me.svg" alt="About Me" width="100%" />
+</p>
 
 <br/>
 
@@ -52,35 +37,9 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 
 ## 💡 Developer Philosophy
 
-> *"Software development begins with planning, not coding. Every great system starts with understanding the problem, designing the architecture, and building for maintainability."*
-
-<br/>
-
-<table>
-<tr>
-<td width="32%" align="center">
-
-**🎯 Plan First**
-<br/>
-<sub>Understand → Research → Design → Build</sub>
-
-</td>
-<td width="32%" align="center">
-
-**🏗️ Build Right**
-<br/>
-<sub>Clean architecture, separation of concerns</sub>
-
-</td>
-<td width="32%" align="center">
-
-**📈 Scale Fast**
-<br/>
-<sub>Code for today, architect for tomorrow</sub>
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="images/03-philosophy.svg" alt="Developer Philosophy" width="100%" />
+</p>
 
 <br/>
 
@@ -90,67 +49,9 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 
 ## 🛠️ Tech Stack
 
-<br/>
-
-<table>
-<tr>
-<td width="50%" valign="top" style="background:#091428; border:1px solid #1683DF44; border-radius:12px; padding:20px;">
-
-**Frontend**
-<br/>
-<br/>
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-<img src="https://img.shields.io/badge/Shopify-96BF48?style=for-the-badge&logo=shopify&logoColor=white" alt="Shopify" />
-
-</td>
-<td width="50%" valign="top" style="background:#091428; border:1px solid #1683DF44; border-radius:12px; padding:20px;">
-
-**Backend**
-<br/>
-<br/>
-<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" style="background:#091428; border:1px solid #1683DF44; border-radius:12px; padding:20px;">
-
-**Database & Cloud**
-<br/>
-<br/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-
-</td>
-<td width="50%" valign="top" style="background:#091428; border:1px solid #1683DF44; border-radius:12px; padding:20px;">
-
-**Tools & AI**
-<br/>
-<br/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini" />
-<img src="https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe" />
-<img src="https://img.shields.io/badge/PayMongo-0066FF?style=for-the-badge&logoColor=white" alt="PayMongo" />
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="images/04-tech-stack.svg" alt="Tech Stack" width="100%" />
+</p>
 
 <br/>
 
@@ -160,295 +61,41 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 
 ## 🚀 Featured Projects
 
-<br/>
-
-<table>
-<tr>
-<td width="50%" valign="top" style="background:#091428; border:1px solid #1683DF44; border-radius:12px; padding:22px;">
-
-### 🎮 KyroPad
-
-> The **Ultimate Wireless Precision Trackpad, Multi-Monitor Remote Screen & Macro Deck** for Windows 11 — your smartphone becomes a full PC controller over local Wi-Fi.
-
-<br/>
-
-**Stack:**
-<br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" />
-<img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
-<img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socket.io&logoColor=white" alt="WebSockets" />
-<img src="https://img.shields.io/badge/Win32_GDI-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Win32 GDI" />
-
-<br/>
-
-**Highlights:**
-- 🖱️ Hardware-grade trackpad with Windows Precision gesture support
-- 🖥️ Live multi-monitor screen streaming at 20–25+ FPS
-- 🎛️ Windows 11 macro deck — snap, volume, hotkeys & shortcuts
-- 📡 100% local Wi-Fi WebSocket — zero cloud, sub-10ms latency
-- 📱 Cross-platform mobile client (iOS & Android via Expo)
-- ⌨️ Remote keyboard with Unicode text broadcast
-
-<br/>
-
-<a href="https://github.com/makinity/win-deck-remote">
-  <img src="https://img.shields.io/badge/📂_View_Repo-111f42?style=for-the-badge" alt="Repo" />
-</a>
-
-</td>
-<td width="50%" valign="top" style="background:#091428; border:1px solid #1683DF44; border-radius:12px; padding:22px;">
-
-### 🎬 Caption Remover
-
-> A Python tool that **removes burned-in subtitles and captions** from videos using AI inpainting (LaMa) — no OCR, no external API, fully local.
-
-<br/>
-
-**Stack:**
-<br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Gradio-FF7C00?style=flat-square&logo=gradio&logoColor=white" alt="Gradio" />
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
-<img src="https://img.shields.io/badge/LaMa_AI-000000?style=flat-square&logoColor=white" alt="LaMa" />
-<img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-
-<br/>
-
-**Highlights:**
-- 🤖 AI inpainting with LaMa — reconstructs background under captions
-- 🖱️ Interactive ROI selector — drag to pick subtitle region visually
-- 🎨 Dual color mode — handles white & black burned-in text
-- 🔊 Original audio preserved automatically via FFmpeg
-- ⚡ GPU auto-detect — CUDA → Apple Silicon MPS → CPU fallback
-- 🌐 Web UI via Gradio + Docker-ready for deployment
-
-<br/>
-
-<a href="https://github.com/makinity/caption-remover">
-  <img src="https://img.shields.io/badge/📂_View_Repo-111f42?style=for-the-badge" alt="Repo" />
-</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" style="background:#091428; border:1px solid #1683DF44; border-radius:12px; padding:22px;">
-
-### 🏠 BoardEase
-
-> A full-stack boarding house management system that handles the complete rental lifecycle: **search → reserve → rent → bill → pay**.
-
-<br/>
-
-**Stack:**
-<br/>
-<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/WPF-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="WPF" />
-<img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" />
-<img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
-<img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" alt="Express.js" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-
-<br/>
-
-**Highlights:**
-- 🖥️ WPF Desktop App (.NET 8) + 📱 React Native Mobile App
-- 🎫 Role-based access (Admin, Owner, Occupant)
-- 💳 Stripe & PayMongo payment integration
-- 🔔 Real-time notifications via SignalR
-- 🤖 Built-in AI assistant (Gemini)
-- 📊 Reports & analytics
-
-<br/>
-
-<a href="https://github.com/makinity/BoardEase-APP">
-  <img src="https://img.shields.io/badge/📂_Desktop-111f42?style=for-the-badge&labelColor=111f42" alt="Desktop" />
-</a>
-<a href="https://github.com/makinity/BoardEase-Mobile">
-  <img src="https://img.shields.io/badge/📱_Mobile-111f42?style=for-the-badge&labelColor=111f42" alt="Mobile" />
-</a>
-
-</td>
-<td width="50%" valign="top" style="background:#091428; border:1px solid #1683DF44; border-radius:12px; padding:22px;">
-
-### 📊 Smart PMS
-
-> A Smart Performance Management System integrating **machine learning** with modern web technologies for data-driven performance evaluation.
-
-<br/>
-
-**Stack:**
-<br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-
-<br/>
-
-**Highlights:**
-- 🧠 Random Forest ML model for performance prediction
-- 📈 Data visualization & analytics dashboard
-- 🏗️ Laravel backend with clean architecture
-- 🎯 Role-based dashboards
-- ⭐ Employee evaluation system
-- 📋 Department management
-
-<br/>
-
-<a href="https://smart-pms.onrender.com/">
-  <img src="https://img.shields.io/badge/🚀_Live-Demo-22C55E?style=for-the-badge&logo=render&logoColor=white" alt="Live Demo" />
-</a>
-<a href="https://github.com/makinity/Smart-PMS">
-  <img src="https://img.shields.io/badge/⭐_Starred-FFD700?style=for-the-badge" alt="Star" />
-</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" style="background:#091428; border:1px solid #1683DF44; border-radius:12px; padding:22px;">
-
-### 🎯 JobHunter AI
-
-> An AI-powered personal automation system that monitors Facebook groups for **SMM/VA freelance gigs** and sends instant notifications via Telegram.
-
-<br/>
-
-**Stack:**
-<br/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
-<img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" alt="Express.js" />
-<img src="https://img.shields.io/badge/Puppeteer-404E49?style=flat-square&logo=puppeteer&logoColor=white" alt="Puppeteer" />
-<img src="https://img.shields.io/badge/Groq-FF6B00?style=flat-square&logoColor=white" alt="Groq" />
-<img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" />
-
-<br/>
-
-**Highlights:**
-- 🤖 AI-powered job matching with Groq (LLaMA 3.1)
-- 🔍 Puppeteer-based Facebook scraper
-- 📱 Telegram bot notifications
-- ⏰ Scheduled monitoring with GitHub Actions
-- 📊 Match scoring & skill profiling
-- 🔄 Auto cookie expiry reminders
-
-<br/>
-
-<a href="https://github.com/makinity/jobhunter-ai">
-  <img src="https://img.shields.io/badge/📂_View_Repo-111f42?style=for-the-badge" alt="Repo" />
-</a>
-
-</td>
-<td width="50%" valign="top" style="background:#091428; border:1px solid #1683DF44; border-radius:12px; padding:22px;">
-
-### 🌐 MakiSync
-
-> My personal brand portfolio website — a modern, minimal landing page showcasing services, projects, and professional capabilities.
-
-<br/>
-
-**Stack:**
-<br/>
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
-
-<br/>
-
-**Highlights:**
-- 🎨 Consistent MakiSync branding (#1683DF, #93CCE9)
-- 📱 Fully responsive design
-- ⚡ Deployed on Vercel
-- 🏗️ Service showcase (SMM, VA, Web Dev)
-- 📄 Project portfolio integration
-- 📈 SEO-optimized
-
-<br/>
-
-<a href="https://maki-sync.vercel.app">
-  <img src="https://img.shields.io/badge/🌐_Live_Site-22C55E?style=for-the-badge" alt="Live" />
-</a>
-<a href="https://github.com/makinity/MakiSync">
-  <img src="https://img.shields.io/badge/📂_Source-111f42?style=for-the-badge" alt="Source" />
-</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" style="background:#091428; border:1px solid #1683DF44; border-radius:12px; padding:22px;">
-
-### 🍗 Chicken Express
-
-> A web-based chicken food ordering system with **PayMongo payment integration**, featuring a customer storefront and a full admin panel.
-
-<br/>
-
-**Stack:**
-<br/>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" alt="Spring Boot" />
-<img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white" alt="Thymeleaf" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-<img src="https://img.shields.io/badge/PayMongo-0066FF?style=flat-square&logoColor=white" alt="PayMongo" />
-
-<br/>
-
-**Highlights:**
-- 🛒 Customer storefront — browse, cart, checkout & order tracking
-- 🔐 Spring Security with role-based access (Customer / Admin)
-- 💳 PayMongo hosted checkout (GCash, Maya, card)
-- 🔔 Webhook-driven order status updates
-- 📊 Admin dashboard with Excel & PDF reports
-- 📦 Full product & order management system
-
-<br/>
-
-<a href="https://github.com/makinity/ChickenExpress">
-  <img src="https://img.shields.io/badge/📂_View_Repo-111f42?style=for-the-badge" alt="Repo" />
-</a>
-
-</td>
-<td width="50%" valign="top" style="background:#091428; border:1px solid #1683DF44; border-radius:12px; padding:22px;">
-
-### ☕ Maki Coffee Co.
-
-> A full **Shopify theme built from scratch** for a fictional specialty coffee brand — production-ready, fully branded, and portfolio-grade.
-
-<br/>
-
-**Stack:**
-<br/>
-<img src="https://img.shields.io/badge/Shopify-96BF48?style=flat-square&logo=shopify&logoColor=white" alt="Shopify" />
-<img src="https://img.shields.io/badge/Liquid-7AB55C?style=flat-square&logo=shopify&logoColor=white" alt="Liquid" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-<img src="https://img.shields.io/badge/Groq_API-FF6B00?style=flat-square&logoColor=white" alt="Groq" />
-<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
-
-<br/>
-
-**Highlights:**
-- 🎨 Full brand system — CSS tokens, Playfair Display, warm coffee palette
-- 🛍️ Custom sections with Shopify schema & block repeaters
-- 🛒 Product page with gallery, variant picker & quantity stepper
-- ⚡ AJAX add-to-cart with live cart count feedback
-- 🤖 Floating AI chatbot widget wired to Groq API proxy
-- 🎞️ Scroll-triggered animations via IntersectionObserver
-
-<br/>
-
-<a href="https://github.com/makinity/Shopify-Coffe-Store">
-  <img src="https://img.shields.io/badge/📂_View_Repo-111f42?style=for-the-badge" alt="Repo" />
-</a>
-<a href="https://maki-practice-store.myshopify.com">
-  <img src="https://img.shields.io/badge/🌐_Live_Store-96BF48?style=for-the-badge&logo=shopify&logoColor=white" alt="Live Store" />
-</a>
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/makinity/KyroPad">
+    <img src="images/proj-01-kyropad.svg" alt="KyroPad" width="49%" />
+  </a>
+  <a href="https://github.com/makinity/Caption-Remover">
+    <img src="images/proj-02-caption-remover.svg" alt="Caption Remover" width="49%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/makinity/BoardEase-Mobile">
+    <img src="images/proj-03-boardease.svg" alt="BoardEase" width="49%" />
+  </a>
+  <a href="https://github.com/makinity/Smart-PMS">
+    <img src="images/proj-04-smart-pms.svg" alt="Smart PMS" width="49%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/makinity/jobhunter-ai">
+    <img src="images/proj-05-jobhunter-ai.svg" alt="JobHunter AI" width="49%" />
+  </a>
+  <a href="https://maki-sync.vercel.app">
+    <img src="images/proj-06-makisync.svg" alt="MakiSync" width="49%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/makinity/ChickenExpress">
+    <img src="images/proj-07-chicken-express.svg" alt="Chicken Express" width="49%" />
+  </a>
+  <a href="https://github.com/makinity/Shopify-Coffe-Store">
+    <img src="images/proj-08-maki-coffee.svg" alt="Maki Coffee Co." width="49%" />
+  </a>
+</p>
 
 <br/>
 
@@ -460,39 +107,15 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 
 <br/>
 
-<table>
-<tr>
-<td width="50%" align="center">
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=makinity&show_icons=true&theme=tokyonight&bg_color=060b17&title_color=93CCE9&text_color=c9d1d9&icon_color=1683DF&border_color=1683DF44&border_radius=12&rank_icon=percentile" alt="GitHub Stats" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=makinity&layout=compact&theme=tokyonight&bg_color=060b17&title_color=93CCE9&text_color=c9d1d9&border_color=1683DF44&border_radius=12" alt="Top Languages" width="49%" />
+</p>
 
-<img src="https://github-readme-stats.vercel.app/api?username=makinity&show_icons=true&theme=chartreuse-dark&bg_color=0a0f1e&title_color=1683DF&icon_color=93CCE9&text_color=ffffff&border_color=1683DF&hide_border=false&count_private=true&include_all_commits=true&hide=stars,issues" width="400" alt="GitHub Stats" />
-
-</td>
-<td width="50%" align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=makinity&layout=compact&theme=chartreuse-dark&bg_color=0a0f1e&title_color=1683DF&text_color=ffffff&border_color=1683DF&langs_count=8&hide=html,css" width="400" alt="Top Languages" />
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<table>
-<tr>
-<td width="50%" align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=makinity&theme=dark&background=0a0f1e&ring=1683DF&fire=1683DF&currStreakLabel=93CCE9&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&border=1683DF&dateNum=93CCE9" width="400" alt="GitHub Streak" />
-
-</td>
-<td width="50%" align="center">
-
-<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=makinity&bg_color=0a0f1e&color=1683DF&line=93CCE9&point=ffffff&area=true&area_color=1683DF&hide_border=true" width="400" alt="Activity Graph" />
-</a>
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=makinity&theme=tokyonight&background=060B17&ring=1683DF&fire=38BDF8&currStreakLabel=93CCE9&sideLabels=C9D1D9&dates=8B949E&border=1683DF44&border_radius=12" alt="GitHub Streak" width="49%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=makinity&theme=react-dark&bg_color=060b17&color=1683DF&line=38bdf8&point=93CCE9&area=true&hide_border=false&border_color=1683DF44&radius=12" alt="Activity Graph" width="49%" />
+</p>
 
 <br/>
 
@@ -505,10 +128,12 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 <br/>
 
 <p align="center">
-  <img src="assets/github-snake.svg" alt="Snake Animation" width="100%" />
+  <img src="assets/github-snake.svg" alt="Snake animation" width="100%" />
 </p>
 
-> *🔄 Updated automatically every 12 hours via GitHub Actions*
+<p align="center">
+  <sub>🔄 Updated automatically every 12 hours via GitHub Actions</sub>
+</p>
 
 <br/>
 
@@ -521,20 +146,20 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 <br/>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/⭐_Starred_Project-FFD700?style=for-the-badge&labelColor=111f42" alt="Starred" />
-  <img src="https://img.shields.io/badge/🤖_AI_Integrated_Apps-00d4ff?style=for-the-badge&labelColor=111f42" alt="AI Apps" />
-  <img src="https://img.shields.io/badge/💳_Payment_Integration-22C55E?style=for-the-badge&labelColor=111f42" alt="Payments" />
-  <img src="https://img.shields.io/badge/📱_Cross_Platform-93CCE9?style=for-the-badge&labelColor=111f42" alt="Cross Platform" />
-  <img src="https://img.shields.io/badge/🔔_Real_Time_Systems-FF6B6B?style=for-the-badge&labelColor=111f42" alt="Real-time" />
+  <img src="https://img.shields.io/badge/⭐_Starred_Project-FFD700?style=for-the-badge&labelColor=060b17" alt="Starred" />
+  <img src="https://img.shields.io/badge/🤖_AI_Integrated_Apps-38bdf8?style=for-the-badge&labelColor=060b17" alt="AI Apps" />
+  <img src="https://img.shields.io/badge/💳_Payment_Integration-22C55E?style=for-the-badge&labelColor=060b17" alt="Payments" />
+  <img src="https://img.shields.io/badge/📱_Cross_Platform-93CCE9?style=for-the-badge&labelColor=060b17" alt="Cross Platform" />
+  <img src="https://img.shields.io/badge/🔔_Real_Time_Systems-1683DF?style=for-the-badge&labelColor=060b17" alt="Real-time" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/🏗️_Clean_Architecture-1683DF?style=for-the-badge&labelColor=111f42" alt="Architecture" />
-  <img src="https://img.shields.io/badge/📊_ML_Model-7C3AED?style=for-the-badge&labelColor=111f42" alt="ML" />
-  <img src="https://img.shields.io/badge/🔄_GitHub_Actions-2088FF?style=for-the-badge&labelColor=111f42" alt="CI/CD" />
-  <img src="https://img.shields.io/badge/🎯_Role_Based_Access-F59E0B?style=for-the-badge&labelColor=111f42" alt="RBAC" />
-  <img src="https://img.shields.io/badge/☁️_Vercel_Deployed-000000?style=for-the-badge&labelColor=111f42" alt="Deployed" />
-  <img src="https://img.shields.io/badge/☕_Shopify_Theme_Dev-96BF48?style=for-the-badge&labelColor=111f42" alt="Shopify" />
+  <img src="https://img.shields.io/badge/🏗️_Clean_Architecture-1683DF?style=for-the-badge&labelColor=060b17" alt="Architecture" />
+  <img src="https://img.shields.io/badge/📊_ML_Model-38bdf8?style=for-the-badge&labelColor=060b17" alt="ML" />
+  <img src="https://img.shields.io/badge/🔄_GitHub_Actions-93CCE9?style=for-the-badge&labelColor=060b17" alt="CI/CD" />
+  <img src="https://img.shields.io/badge/🎯_Role_Based_Access-F59E0B?style=for-the-badge&labelColor=060b17" alt="RBAC" />
+  <img src="https://img.shields.io/badge/☁️_Vercel_Deployed-1683DF?style=for-the-badge&labelColor=060b17" alt="Deployed" />
+  <img src="https://img.shields.io/badge/☕_Shopify_Theme_Dev-38bdf8?style=for-the-badge&labelColor=060b17" alt="Shopify" />
 </p>
 
 <br/>
@@ -545,50 +170,8 @@ When I'm not coding, I'm probably learning something new, automating my workflow
 
 ## 🏅 Certifications
 
-<br/>
-
-<table>
-<tr>
-<td width="33%" valign="top" align="center" style="background:#091428; border:1px solid #1683DF44; border-radius:10px; padding:18px;">
-
-**🎓 COIL 2025**
-<br/>
-Tourism Web Application
-<br/>
-<sub>DDSC × EVSU · Philippines</sub>
-<br/><br/>
-<img src="https://img.shields.io/badge/COIL_Program-2025-1683DF?style=flat-square&labelColor=111f42" alt="COIL 2025" />
-
-</td>
-<td width="33%" valign="top" align="center" style="background:#091428; border:1px solid #1683DF44; border-radius:10px; padding:18px;">
-
-**🎓 COIL 2026**
-<br/>
-SociaLite Social Media App
-<br/>
-<sub>DDSC × National Meanchey University · Cambodia</sub>
-<br/><br/>
-<img src="https://img.shields.io/badge/COIL_Program-2026-1683DF?style=flat-square&labelColor=111f42" alt="COIL 2026" />
-
-</td>
-<td width="33%" valign="top" align="center" style="background:#091428; border:1px solid #1683DF44; border-radius:10px; padding:18px;">
-
-**📜 VA Bar — Intermediate Training**
-<br/>
-SMM · Lead Generation · Graphic Design
-<br/>
-<sub>Email Marketing · Administrative</sub>
-<br/><br/>
-<img src="https://img.shields.io/badge/The_VA_Bar-Aug_2026-22C55E?style=flat-square&labelColor=111f42" alt="VA Bar" />
-
-</td>
-</tr>
-</table>
-
-<br/>
-
 <p align="center">
-  <sub>🎯 <b>Working toward:</b> Google Digital Marketing · AWS Cloud Practitioner · GitHub Foundations</sub>
+  <img src="images/05-certifications.svg" alt="Certifications" width="100%" />
 </p>
 
 <br/>
@@ -599,71 +182,9 @@ SMM · Lead Generation · Graphic Design
 
 ## 🧠 What I'm Currently Working On
 
-<br/>
-
-<table>
-<tr>
-<td width="33%" align="center" style="background:#091428; border:1px solid #1683DF44; border-radius:10px; padding:16px;">
-
-**🎓 Academics**
-<br/>
-Completing BSIT degree
-<br/>
-<sub>Expected graduation: 2026</sub>
-
-</td>
-<td width="33%" align="center" style="background:#091428; border:1px solid #1683DF44; border-radius:10px; padding:16px;">
-
-**🏗️ BoardEase**
-<br/>
-Full-stack boarding house system
-<br/>
-<sub>Desktop + Mobile + API</sub>
-
-</td>
-<td width="33%" align="center" style="background:#091428; border:1px solid #1683DF44; border-radius:10px; padding:16px;">
-
-**🤖 AI Integration**
-<br/>
-Learning ML & AI patterns
-<br/>
-<sub>Gemini API, Groq, automation</sub>
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="33%" align="center" style="background:#091428; border:1px solid #1683DF44; border-radius:10px; padding:16px;">
-
-**☁️ Cloud & DevOps**
-<br/>
-AWS Cloud Practitioner
-<br/>
-<sub>Building deployment skills</sub>
-
-</td>
-<td width="33%" align="center" style="background:#091428; border:1px solid #1683DF44; border-radius:10px; padding:16px;">
-
-**💼 Freelancing**
-<br/>
-SMM & VA services
-<br/>
-<sub>Building portfolio & clients</sub>
-
-</td>
-<td width="33%" align="center" style="background:#091428; border:1px solid #1683DF44; border-radius:10px; padding:16px;">
-
-**🚀 MakiSync**
-<br/>
-Expanding personal brand
-<br/>
-<sub>Services, portfolio, products</sub>
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="images/06-currently-working.svg" alt="What I'm Currently Working On" width="100%" />
+</p>
 
 <br/>
 
@@ -710,26 +231,26 @@ Expanding personal brand
 
 <p align="center">
   <a href="https://maki-sync.vercel.app">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-1683DF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/🌐_Portfolio-1683DF?style=for-the-badge&labelColor=060b17" alt="Portfolio" />
   </a>
   <a href="https://github.com/makinity">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-38bdf8?style=for-the-badge&logo=github&logoColor=white&labelColor=060b17" alt="GitHub" />
   </a>
   <a href="https://www.linkedin.com/in/mark-vencent-juntilla-366328358">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-1683DF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=060b17" alt="LinkedIn" />
   </a>
   <a href="mailto:markjuntillava@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-38bdf8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=060b17" alt="Email" />
   </a>
   <a href="https://t.me/MakiSyncBot">
-    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+    <img src="https://img.shields.io/badge/Telegram-93CCE9?style=for-the-badge&logo=telegram&logoColor=white&labelColor=060b17" alt="Telegram" />
   </a>
 </p>
 
 <br/>
 
 <p align="center">
-  <sub>💬 <b>Available for:</b> Remote Software Engineering roles · Freelance Web Development · SMM & Virtual Assistance</sub>
+  <sub>💬 <b>Available for:</b> Remote Software Engineering roles · Freelance Web Development · SMM &amp; Virtual Assistance</sub>
 </p>
 
 <br/>

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 540" width="100%" height="100%">
+
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060b17" />
+      <stop offset="50%" stop-color="#0a1428" />
+      <stop offset="100%" stop-color="#060b17" />
+    </linearGradient>
+    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#93CCE9" />
+      <stop offset="50%" stop-color="#1683DF" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="60%" stop-color="#f0f6fc" />
+      <stop offset="100%" stop-color="#93CCE9" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1683df" stroke-width="0.6" opacity="0.1" />
+    </pattern>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+    .title { font-weight: 700; fill: #f0f6fc; }
+    .sub { fill: #93CCE9; }
+    .text { fill: #c9d1d9; font-size: 15px; }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="780" height="540" rx="14" fill="url(#cardBg)" stroke="#1683DF" stroke-width="2" opacity="0.95" />
+  <rect width="780" height="540" rx="14" fill="url(#grid)" />
+
+  <!-- Corner Brackets -->
+  <path d="M 12 36 V 12 H 36 M 744 12 H 768 V 36 M 12 504 V 528 H 36 M 744 528 H 768 V 504" fill="none" stroke="#1683DF" stroke-width="3" />
+
+  <!-- Top Accent Line -->
+  <rect x="0" y="0" width="780" height="4" fill="#1683DF" />
+
+  <!-- Title -->
+  <text x="32" y="44" class="sans title" font-size="24">🎮 KyroPad</text>
+
+  <!-- Tagline blockquote box -->
+  <g transform="translate(32, 60)">
+    <rect width="716" height="68" rx="6" fill="#091428" stroke="#1683DF" stroke-width="1" opacity="0.7" />
+    <path d="M 0 0 V 68" stroke="#1683DF" stroke-width="3.5" />
+    <text x="16" y="24" class="sans" font-size="13" font-style="italic" fill="#8b949e">
+      The Ultimate Wireless Precision Trackpad, Multi-Monitor Remote Screen & Macro Deck for Win...
+    </text>
+    <text x="16" y="46" class="sans" font-size="13" font-style="italic" fill="#8b949e">
+      dows 11 — your smartphone becomes a full PC controller over local Wi-Fi.
+    </text>
+  </g>
+
+  <!-- Stack Section -->
+  <text x="32" y="152" class="mono sub" font-size="12" font-weight="700">TECH STACK:</text>
+  
+      <g transform="translate(32, 150)">
+        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
+        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">Python</text>
+      </g>
+    
+      <g transform="translate(172, 150)">
+        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
+        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">PyQt6</text>
+      </g>
+    
+      <g transform="translate(312, 150)">
+        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
+        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">mss</text>
+      </g>
+    
+      <g transform="translate(452, 150)">
+        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
+        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">WebSockets</text>
+      </g>
+    
+      <g transform="translate(592, 150)">
+        <rect width="130" height="28" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1" />
+        <text x="65" y="19" class="mono" font-size="11" font-weight="600" fill="#93CCE9" text-anchor="middle">Win32 API</text>
+      </g>
+    
+
+  <!-- Divider -->
+  <line x1="32" y1="216" x2="748" y2="216" stroke="#1683DF" stroke-width="1" opacity="0.3" />
+
+  <!-- Highlights -->
+  <text x="32" y="238" class="mono sub" font-size="12" font-weight="700">HIGHLIGHTS:</text>
+  <text x="36" y="250" class="sans text" font-size="14" fill="#c9d1d9">• Hardware-grade trackpad with Windows Precision gestures support</text><text x="36" y="276" class="sans text" font-size="14" fill="#c9d1d9">• Live multi-monitor screen streaming at 30-60+ FPS</text><text x="36" y="302" class="sans text" font-size="14" fill="#c9d1d9">• Windows 11 macro deck — apps, macros, hotkeys & shortcuts</text><text x="36" y="328" class="sans text" font-size="14" fill="#c9d1d9">• 100% local Wi-Fi WebSocket — zero cloud, sub-15ms latency</text><text x="36" y="354" class="sans text" font-size="14" fill="#c9d1d9">• Cross-platform mobile client (iOS & Android via Expo)</text><text x="36" y="380" class="sans text" font-size="14" fill="#c9d1d9">• Remote keyboard with Unicode text broadcast</text>
+
+  <!-- Bottom Action Button Banner -->
+  <g transform="translate(32, 474)">
+    <rect width="716" height="42" rx="8" fill="#060b17" stroke="#1683DF" stroke-width="1.5" />
+    <text x="358" y="26" class="mono" font-size="13" font-weight="700" fill="#1683DF" text-anchor="middle" letter-spacing="1">
+      📂 VIEW REPO →
+    </text>
+  </g>
+</svg>

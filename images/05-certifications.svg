@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 320" width="100%" height="100%">
+
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060b17" />
+      <stop offset="50%" stop-color="#0a1428" />
+      <stop offset="100%" stop-color="#060b17" />
+    </linearGradient>
+    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#93CCE9" />
+      <stop offset="50%" stop-color="#1683DF" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="60%" stop-color="#f0f6fc" />
+      <stop offset="100%" stop-color="#93CCE9" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1683df" stroke-width="0.6" opacity="0.1" />
+    </pattern>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+    .title { font-weight: 700; fill: #f0f6fc; }
+    .sub { fill: #93CCE9; }
+    .text { fill: #c9d1d9; font-size: 15px; }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="1600" height="320" rx="14" fill="url(#cardBg)" stroke="#1683DF" stroke-width="2" opacity="0.95" />
+  <rect width="1600" height="320" rx="14" fill="url(#grid)" />
+
+  <!-- Corner Brackets -->
+  <path d="M 12 40 V 12 H 40 M 1560 12 H 1588 V 40 M 12 280 V 308 H 40 M 1560 308 H 1588 V 280" fill="none" stroke="#1683DF" stroke-width="3.5" />
+
+  <!-- 3 Cert Cards -->
+  <!-- Cert 1: COIL 2025 -->
+  <g transform="translate(36, 28)">
+    <rect width="490" height="210" rx="12" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
+    <rect width="490" height="5" fill="#1683DF" />
+    <text x="245" y="44" class="sans title" font-size="20" text-anchor="middle">🎓 COIL 2025</text>
+    <text x="245" y="74" class="sans" font-size="15" fill="#f0f6fc" text-anchor="middle">Tourism Web Application</text>
+    <text x="245" y="100" class="mono sub" font-size="12" text-anchor="middle">DDSC × EVSU · Philippines</text>
+    
+    <g transform="translate(145, 134)">
+      <rect width="200" height="36" rx="6" fill="#060b17" stroke="#1683DF" stroke-width="1.5" />
+      <text x="100" y="23" class="mono" font-size="13" font-weight="700" fill="#1683DF" text-anchor="middle">COIL Program · 2025</text>
+    </g>
+  </g>
+
+  <!-- Cert 2: COIL 2026 -->
+  <g transform="translate(555, 28)">
+    <rect width="490" height="210" rx="12" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
+    <rect width="490" height="5" fill="#38bdf8" />
+    <text x="245" y="44" class="sans title" font-size="20" text-anchor="middle">🎓 COIL 2026</text>
+    <text x="245" y="74" class="sans" font-size="15" fill="#f0f6fc" text-anchor="middle">SociaLite Social Media App</text>
+    <text x="245" y="100" class="mono sub" font-size="12" text-anchor="middle">DDSC × National Meanchey University · Cambodia</text>
+    
+    <g transform="translate(145, 134)">
+      <rect width="200" height="36" rx="6" fill="#060b17" stroke="#38bdf8" stroke-width="1.5" />
+      <text x="100" y="23" class="mono" font-size="13" font-weight="700" fill="#38bdf8" text-anchor="middle">COIL Program · 2026</text>
+    </g>
+  </g>
+
+  <!-- Cert 3: VA Bar -->
+  <g transform="translate(1074, 28)">
+    <rect width="490" height="210" rx="12" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
+    <rect width="490" height="5" fill="#22C55E" />
+    <text x="245" y="44" class="sans title" font-size="20" text-anchor="middle">📜 VA Bar — Intermediate Training</text>
+    <text x="245" y="74" class="sans" font-size="15" fill="#f0f6fc" text-anchor="middle">SMM · Lead Generation · Graphic Design</text>
+    <text x="245" y="100" class="mono sub" font-size="12" text-anchor="middle">Email Marketing · Administrative</text>
+    
+    <g transform="translate(145, 134)">
+      <rect width="200" height="36" rx="6" fill="#060b17" stroke="#22C55E" stroke-width="1.5" />
+      <text x="100" y="23" class="mono" font-size="13" font-weight="700" fill="#22C55E" text-anchor="middle">The VA Bar · Aug 2026</text>
+    </g>
+  </g>
+
+  <!-- Bottom Goals Pill -->
+  <g transform="translate(36, 258)">
+    <rect width="1528" height="42" rx="8" fill="#091428" stroke="#1683DF" stroke-width="1" opacity="0.7" />
+    <text x="764" y="26" class="mono" font-size="13" fill="#93CCE9" text-anchor="middle">
+      🎯 Working toward: Google Digital Marketing · AWS Cloud Practitioner · GitHub Foundations
+    </text>
+  </g>
+</svg>
