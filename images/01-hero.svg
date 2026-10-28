@@ -84,7 +84,7 @@
   <rect width="1600" height="430" fill="url(#fadeL)" />
 </g>
 
-<!-- Outer Cyber Frame & Corners -->
+<!-- Outer Cyber Frame &amp; Corners -->
 <rect x="12" y="12" width="1576" height="406" rx="14" fill="none" stroke="#1683DF" stroke-width="2" opacity="0.45" />
 <rect x="8" y="8" width="1584" height="414" rx="16" fill="none" stroke="#93CCE9" stroke-width="5" opacity="0.15" />
 <!-- High-Tech Corner Brackets -->
@@ -110,7 +110,7 @@
   <text x="0" y="0" class="mono" font-size="22" font-weight="600" fill="#93CCE9" letter-spacing="4">FULL-STACK DEVELOPER · AI ENTHUSIAST · PROBLEM SOLVER</text>
 </g>
 
-<!-- Quote from Knowledge Base & Original Profile -->
+<!-- Quote from Knowledge Base &amp; Original Profile -->
 <g transform="translate(84, 288)">
   <text x="0" y="0" class="mono" font-size="19" fill="#F0F6FC" opacity="0.9">"Software development begins with planning, not coding.</text>
   <text x="0" y="28" class="mono" font-size="19" fill="#93CCE9" opacity="0.9"> Every great system starts with understanding the problem."</text>

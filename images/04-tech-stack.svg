@@ -155,7 +155,7 @@
   
   </g>
 
-  <!-- Panel 3: Database & Cloud (Bottom Left) -->
+  <!-- Panel 3: Database &amp; Cloud (Bottom Left) -->
   <g transform="translate(36, 330)">
     <rect width="740" height="270" rx="12" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
     <rect width="740" height="5" fill="#3FCF8E" />
@@ -196,7 +196,7 @@
     </g>
   </g>
 
-  <!-- Panel 4: Tools & AI (Bottom Right) -->
+  <!-- Panel 4: Tools &amp; AI (Bottom Right) -->
   <g transform="translate(824, 330)">
     <rect width="740" height="270" rx="12" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
     <rect width="740" height="5" fill="#4285F4" />

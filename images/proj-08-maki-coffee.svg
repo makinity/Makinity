@@ -91,7 +91,7 @@
 
   <!-- Highlights -->
   <text x="32" y="238" class="mono sub" font-size="12" font-weight="700">HIGHLIGHTS:</text>
-  <text x="36" y="250" class="sans text" font-size="14" fill="#c9d1d9">• Full brand system — CSS tokens, Playfair Display</text><text x="36" y="276" class="sans text" font-size="14" fill="#c9d1d9">• 🛍️ Custom sections with Shopify schema & block repeaters</text><text x="36" y="302" class="sans text" font-size="14" fill="#c9d1d9">• Product page with gallery, variant picker & quantity stepper</text><text x="36" y="328" class="sans text" font-size="14" fill="#c9d1d9">• AJAX add-to-cart with live cart count feedback</text><text x="36" y="354" class="sans text" font-size="14" fill="#c9d1d9">• Floating AI chatbot widget wired to Groq API proxy</text><text x="36" y="380" class="sans text" font-size="14" fill="#c9d1d9">• Scroll-triggered animations via IntersectionObserver</text>
+  <text x="36" y="250" class="sans text" font-size="14" fill="#c9d1d9">• Full brand system — CSS tokens, Playfair Display</text><text x="36" y="276" class="sans text" font-size="14" fill="#c9d1d9">• 🛍️ Custom sections with Shopify schema &amp; block repeaters</text><text x="36" y="302" class="sans text" font-size="14" fill="#c9d1d9">• Product page with gallery, variant picker &amp; quantity stepper</text><text x="36" y="328" class="sans text" font-size="14" fill="#c9d1d9">• AJAX add-to-cart with live cart count feedback</text><text x="36" y="354" class="sans text" font-size="14" fill="#c9d1d9">• Floating AI chatbot widget wired to Groq API proxy</text><text x="36" y="380" class="sans text" font-size="14" fill="#c9d1d9">• Scroll-triggered animations via IntersectionObserver</text>
 
   <!-- Bottom Action Button Banner -->
   <g transform="translate(32, 474)">

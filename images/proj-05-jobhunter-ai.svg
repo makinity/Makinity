@@ -91,7 +91,7 @@
 
   <!-- Highlights -->
   <text x="32" y="238" class="mono sub" font-size="12" font-weight="700">HIGHLIGHTS:</text>
-  <text x="36" y="250" class="sans text" font-size="14" fill="#c9d1d9">• AI-powered job matching with Groq (LLaMA 3.1)</text><text x="36" y="276" class="sans text" font-size="14" fill="#c9d1d9">• Puppeteer-based Facebook scraper</text><text x="36" y="302" class="sans text" font-size="14" fill="#c9d1d9">• Telegram bot notifications</text><text x="36" y="328" class="sans text" font-size="14" fill="#c9d1d9">• Scheduled monitoring with GitHub Actions</text><text x="36" y="354" class="sans text" font-size="14" fill="#c9d1d9">• Match scoring & skill profiling</text><text x="36" y="380" class="sans text" font-size="14" fill="#c9d1d9">• Auto cookie expiry reminders</text>
+  <text x="36" y="250" class="sans text" font-size="14" fill="#c9d1d9">• AI-powered job matching with Groq (LLaMA 3.1)</text><text x="36" y="276" class="sans text" font-size="14" fill="#c9d1d9">• Puppeteer-based Facebook scraper</text><text x="36" y="302" class="sans text" font-size="14" fill="#c9d1d9">• Telegram bot notifications</text><text x="36" y="328" class="sans text" font-size="14" fill="#c9d1d9">• Scheduled monitoring with GitHub Actions</text><text x="36" y="354" class="sans text" font-size="14" fill="#c9d1d9">• Match scoring &amp; skill profiling</text><text x="36" y="380" class="sans text" font-size="14" fill="#c9d1d9">• Auto cookie expiry reminders</text>
 
   <!-- Bottom Action Button Banner -->
   <g transform="translate(32, 474)">

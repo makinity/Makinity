@@ -130,7 +130,7 @@
 
   <!-- Feature Bullets (3 items) -->
   <g transform="translate(40, 130)">
-    <!-- Item 1: Full-Stack Web & Mobile -->
+    <!-- Item 1: Full-Stack Web &amp; Mobile -->
     <g transform="translate(0, 0)">
       <rect x="0" y="0" width="46" height="46" rx="10" fill="#0c1d3b" stroke="#1683DF" stroke-width="1.5" />
       <!-- Code Icon -->
@@ -139,7 +139,7 @@
       <text x="62" y="38" class="sans" font-size="13.5" fill="#8ea4c8">Production web &amp; mobile apps with Laravel, React, Next.js, Expo &amp; C#</text>
     </g>
 
-    <!-- Item 2: AI & ML Systems -->
+    <!-- Item 2: AI &amp; ML Systems -->
     <g transform="translate(0, 72)">
       <rect x="0" y="0" width="46" height="46" rx="10" fill="#0c1d3b" stroke="#1683DF" stroke-width="1.5" />
       <!-- AI / Sparkles Icon -->

@@ -50,7 +50,7 @@
     <rect width="716" height="68" rx="6" fill="#091428" stroke="#1683DF" stroke-width="1" opacity="0.7" />
     <path d="M 0 0 V 68" stroke="#1683DF" stroke-width="3.5" />
     <text x="16" y="24" class="sans" font-size="13" font-style="italic" fill="#8b949e">
-      The Ultimate Wireless Precision Trackpad, Multi-Monitor Remote Screen & Macro Deck for Win...
+      The Ultimate Wireless Precision Trackpad, Multi-Monitor Remote Screen &amp; Macro Deck for Win...
     </text>
     <text x="16" y="46" class="sans" font-size="13" font-style="italic" fill="#8b949e">
       dows 11 — your smartphone becomes a full PC controller over local Wi-Fi.
@@ -91,7 +91,7 @@
 
   <!-- Highlights -->
   <text x="32" y="238" class="mono sub" font-size="12" font-weight="700">HIGHLIGHTS:</text>
-  <text x="36" y="250" class="sans text" font-size="14" fill="#c9d1d9">• Hardware-grade trackpad with Windows Precision gestures support</text><text x="36" y="276" class="sans text" font-size="14" fill="#c9d1d9">• Live multi-monitor screen streaming at 30-60+ FPS</text><text x="36" y="302" class="sans text" font-size="14" fill="#c9d1d9">• Windows 11 macro deck — apps, macros, hotkeys & shortcuts</text><text x="36" y="328" class="sans text" font-size="14" fill="#c9d1d9">• 100% local Wi-Fi WebSocket — zero cloud, sub-15ms latency</text><text x="36" y="354" class="sans text" font-size="14" fill="#c9d1d9">• Cross-platform mobile client (iOS & Android via Expo)</text><text x="36" y="380" class="sans text" font-size="14" fill="#c9d1d9">• Remote keyboard with Unicode text broadcast</text>
+  <text x="36" y="250" class="sans text" font-size="14" fill="#c9d1d9">• Hardware-grade trackpad with Windows Precision gestures support</text><text x="36" y="276" class="sans text" font-size="14" fill="#c9d1d9">• Live multi-monitor screen streaming at 30-60+ FPS</text><text x="36" y="302" class="sans text" font-size="14" fill="#c9d1d9">• Windows 11 macro deck — apps, macros, hotkeys &amp; shortcuts</text><text x="36" y="328" class="sans text" font-size="14" fill="#c9d1d9">• 100% local Wi-Fi WebSocket — zero cloud, sub-15ms latency</text><text x="36" y="354" class="sans text" font-size="14" fill="#c9d1d9">• Cross-platform mobile client (iOS &amp; Android via Expo)</text><text x="36" y="380" class="sans text" font-size="14" fill="#c9d1d9">• Remote keyboard with Unicode text broadcast</text>
 
   <!-- Bottom Action Button Banner -->
   <g transform="translate(32, 474)">

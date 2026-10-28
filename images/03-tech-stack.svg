@@ -89,7 +89,7 @@
   </g>
 </g>
 
-<!-- 2. FRONTEND & MOBILE (x=430, width=360) -->
+<!-- 2. FRONTEND &amp; MOBILE (x=430, width=360) -->
 <g transform="translate(430, 105)">
   <rect width="360" height="300" rx="10" fill="#091326" stroke="#1683DF" stroke-width="1.5" opacity="0.8" />
   <rect x="0" y="0" width="60" height="3" fill="#1683DF" />
@@ -138,7 +138,7 @@
   </g>
 </g>
 
-<!-- 3. BACKEND & APIS (x=815, width=360) -->
+<!-- 3. BACKEND &amp; APIS (x=815, width=360) -->
 <g transform="translate(815, 105)">
   <rect width="360" height="300" rx="10" fill="#091326" stroke="#1683DF" stroke-width="1.5" opacity="0.8" />
   <rect x="0" y="0" width="60" height="3" fill="#1683DF" />
@@ -187,7 +187,7 @@
   </g>
 </g>
 
-<!-- 4. AI, TOOLS & COMMERCE (x=1200, width=350) -->
+<!-- 4. AI, TOOLS &amp; COMMERCE (x=1200, width=350) -->
 <g transform="translate(1200, 105)">
   <rect width="350" height="300" rx="10" fill="#091326" stroke="#1683DF" stroke-width="1.5" opacity="0.8" />
   <rect x="0" y="0" width="60" height="3" fill="#1683DF" />

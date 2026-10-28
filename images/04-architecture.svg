@@ -52,7 +52,7 @@
 
 <!-- NODE 1: USER (x=60, y=210) -->
 <g transform="translate(60, 210)">
-  <!-- User Icon & Label -->
+  <!-- User Icon &amp; Label -->
   <g transform="translate(20, 0)">
     <circle cx="28" cy="22" r="16" fill="#0e2246" stroke="#1683DF" stroke-width="2" />
     <path d="M 16 54 C 16 38 40 38 40 54" fill="none" stroke="#1683DF" stroke-width="2.5" />
@@ -113,7 +113,7 @@
   <circle cx="0" cy="0" r="4" fill="#93CCE9" class="pk" style="--dx:48px; animation-delay: 0.8s;" />
 </g>
 
-<!-- NODE 4: CORE SERVICES & BUSINESS LOGIC (x=760, width=220) -->
+<!-- NODE 4: CORE SERVICES &amp; BUSINESS LOGIC (x=760, width=220) -->
 <g transform="translate(760, 170)">
   <rect width="220" height="152" rx="10" fill="#09152b" stroke="#1683DF" stroke-width="2" />
   <rect width="220" height="152" rx="10" fill="none" stroke="#93CCE9" stroke-width="6" class="gl" style="animation-delay: 1.6s;" />
@@ -128,20 +128,20 @@
   <text x="110" y="124" class="sans" font-size="12" fill="#8ea4c8" text-anchor="middle">Stripe / PayMongo</text>
 </g>
 
-<!-- ARROW 4: Core Services -> AI & DB Hub -->
+<!-- ARROW 4: Core Services -> AI &amp; DB Hub -->
 <g transform="translate(986, 246)">
   <line x1="0" y1="0" x2="48" y2="0" stroke="#1683DF" stroke-width="3" stroke-linecap="round" />
   <polygon points="48,0 40,-5 40,5" fill="#1683DF" />
   <circle cx="0" cy="0" r="4" fill="#93CCE9" class="pk" style="--dx:48px; animation-delay: 1.2s;" />
 </g>
 
-<!-- NODE 5: AI & DATA HUB (x=1042, width=260) -->
+<!-- NODE 5: AI &amp; DATA HUB (x=1042, width=260) -->
 <g transform="translate(1042, 130)">
   <!-- Outer Box -->
   <rect width="260" height="232" rx="12" fill="#091326" stroke="#1683DF" stroke-width="2" />
   <text x="130" y="30" class="mono" font-size="13" font-weight="700" fill="#93CCE9" text-anchor="middle" letter-spacing="1">AI &amp; DATA ENGINE</text>
 
-  <!-- Sub-block 1: LLM & AI -->
+  <!-- Sub-block 1: LLM &amp; AI -->
   <g transform="translate(14, 46)">
     <rect width="232" height="52" rx="8" fill="#0d2142" stroke="#1683DF" stroke-width="1.2" />
     <path d="M 22 18 L 24 24 L 30 26 L 24 28 L 22 34 L 20 28 L 14 26 L 20 24 Z" fill="#93CCE9" />
@@ -167,7 +167,7 @@
   </g>
 </g>
 
-<!-- ARROW 5: AI & DB Hub -> Cloud Infra -->
+<!-- ARROW 5: AI &amp; DB Hub -> Cloud Infra -->
 <g transform="translate(1308, 246)">
   <line x1="0" y1="0" x2="36" y2="0" stroke="#1683DF" stroke-width="3" stroke-linecap="round" />
   <polygon points="36,0 28,-5 28,5" fill="#1683DF" />
@@ -195,7 +195,7 @@
   </g>
 </g>
 
-<!-- ==================== BOTTOM RETURN BUS: MONITORING & OBSERVABILITY ==================== -->
+<!-- ==================== BOTTOM RETURN BUS: MONITORING &amp; OBSERVABILITY ==================== -->
 <g transform="translate(0, 0)">
   <!-- Connecting circuit lines -->
   <path d="M 320 322 V 420 H 1445 V 342" fill="none" stroke="#10254c" stroke-width="3" />

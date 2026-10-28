@@ -96,7 +96,7 @@
 
   <!-- Highlights -->
   <text x="32" y="238" class="mono sub" font-size="12" font-weight="700">HIGHLIGHTS:</text>
-  <text x="36" y="250" class="sans text" font-size="14" fill="#c9d1d9">• WPF Desktop App (.NET 8) + React Native Mobile App</text><text x="36" y="276" class="sans text" font-size="14" fill="#c9d1d9">• 🎫 Role-based access (Admin, Owner, Occupant)</text><text x="36" y="302" class="sans text" font-size="14" fill="#c9d1d9">• Stripe & PayMongo payment integrations</text><text x="36" y="328" class="sans text" font-size="14" fill="#c9d1d9">• Real-time notifications via SignalR</text><text x="36" y="354" class="sans text" font-size="14" fill="#c9d1d9">• Built-in AI assistant (Gemini)</text><text x="36" y="380" class="sans text" font-size="14" fill="#c9d1d9">• Reports & Analytics</text>
+  <text x="36" y="250" class="sans text" font-size="14" fill="#c9d1d9">• WPF Desktop App (.NET 8) + React Native Mobile App</text><text x="36" y="276" class="sans text" font-size="14" fill="#c9d1d9">• 🎫 Role-based access (Admin, Owner, Occupant)</text><text x="36" y="302" class="sans text" font-size="14" fill="#c9d1d9">• Stripe &amp; PayMongo payment integrations</text><text x="36" y="328" class="sans text" font-size="14" fill="#c9d1d9">• Real-time notifications via SignalR</text><text x="36" y="354" class="sans text" font-size="14" fill="#c9d1d9">• Built-in AI assistant (Gemini)</text><text x="36" y="380" class="sans text" font-size="14" fill="#c9d1d9">• Reports &amp; Analytics</text>
 
   <!-- Bottom Action Button Banner -->
   <g transform="translate(32, 474)">

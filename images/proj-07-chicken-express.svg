@@ -91,7 +91,7 @@
 
   <!-- Highlights -->
   <text x="32" y="238" class="mono sub" font-size="12" font-weight="700">HIGHLIGHTS:</text>
-  <text x="36" y="250" class="sans text" font-size="14" fill="#c9d1d9">• Customer storefront — browse, cart, checkout & order tracking</text><text x="36" y="276" class="sans text" font-size="14" fill="#c9d1d9">• Spring Security with role-based access (Customer / Admin)</text><text x="36" y="302" class="sans text" font-size="14" fill="#c9d1d9">• PayMongo hosted checkout (GCash, Maya, card)</text><text x="36" y="328" class="sans text" font-size="14" fill="#c9d1d9">• Webhook-driven order status updates</text><text x="36" y="354" class="sans text" font-size="14" fill="#c9d1d9">• Admin dashboard with Excel & PDF reports</text><text x="36" y="380" class="sans text" font-size="14" fill="#c9d1d9">• Full product & order management system</text>
+  <text x="36" y="250" class="sans text" font-size="14" fill="#c9d1d9">• Customer storefront — browse, cart, checkout &amp; order tracking</text><text x="36" y="276" class="sans text" font-size="14" fill="#c9d1d9">• Spring Security with role-based access (Customer / Admin)</text><text x="36" y="302" class="sans text" font-size="14" fill="#c9d1d9">• PayMongo hosted checkout (GCash, Maya, card)</text><text x="36" y="328" class="sans text" font-size="14" fill="#c9d1d9">• Webhook-driven order status updates</text><text x="36" y="354" class="sans text" font-size="14" fill="#c9d1d9">• Admin dashboard with Excel &amp; PDF reports</text><text x="36" y="380" class="sans text" font-size="14" fill="#c9d1d9">• Full product &amp; order management system</text>
 
   <!-- Bottom Action Button Banner -->
   <g transform="translate(32, 474)">

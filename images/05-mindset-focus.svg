@@ -128,7 +128,7 @@
     <!-- Box Container -->
     <rect width="458" height="264" rx="10" fill="#08142a" stroke="#1683DF" stroke-width="1.2" />
 
-    <!-- Item 1: KyroPad & BoardEase -->
+    <!-- Item 1: KyroPad &amp; BoardEase -->
     <g transform="translate(20, 24)">
       <text x="0" y="18" class="sans" font-size="16" font-weight="600" fill="#F0F6FC">KyroPad &amp; BoardEase</text>
       <text x="0" y="36" class="mono" font-size="11.5" fill="#8ea4c8">React Native · Python · C#</text>
@@ -154,7 +154,7 @@
     </g>
     <line x1="20" y1="154" x2="438" y2="154" stroke="#1683DF" stroke-width="1" stroke-dasharray="4 4" opacity="0.3" />
 
-    <!-- Item 3: AWS Cloud & System Design -->
+    <!-- Item 3: AWS Cloud &amp; System Design -->
     <g transform="translate(20, 164)">
       <text x="0" y="18" class="sans" font-size="16" font-weight="600" fill="#F0F6FC">AWS Cloud &amp; System Design</text>
       <text x="0" y="36" class="mono" font-size="11.5" fill="#8ea4c8">Practitioner Prep · Arch</text>

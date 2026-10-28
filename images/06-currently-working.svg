@@ -60,7 +60,7 @@
     <g transform="translate(1074, 36)">
       <rect width="490" height="135" rx="10" fill="#091428" stroke="#1683DF" stroke-width="1.2" />
       <text x="24" y="38" class="sans title" font-size="18">🤖 AI Integration</text>
-      <text x="24" y="66" class="sans text" font-size="14" fill="#f0f6fc">Learning ML & AI patterns</text>
+      <text x="24" y="66" class="sans text" font-size="14" fill="#f0f6fc">Learning ML &amp; AI patterns</text>
       <text x="24" y="92" class="mono sub" font-size="12">Gemini API, Groq, automation</text>
     </g>
   
@@ -69,7 +69,7 @@
   
     <g transform="translate(36, 192)">
       <rect width="490" height="135" rx="10" fill="#091428" stroke="#1683DF" stroke-width="1.2" />
-      <text x="24" y="38" class="sans title" font-size="18">☁️ Cloud & DevOps</text>
+      <text x="24" y="38" class="sans title" font-size="18">☁️ Cloud &amp; DevOps</text>
       <text x="24" y="66" class="sans text" font-size="14" fill="#f0f6fc">AWS Cloud Practitioner</text>
       <text x="24" y="92" class="mono sub" font-size="12">Building deployment skills</text>
     </g>
@@ -78,8 +78,8 @@
     <g transform="translate(555, 192)">
       <rect width="490" height="135" rx="10" fill="#091428" stroke="#1683DF" stroke-width="1.2" />
       <text x="24" y="38" class="sans title" font-size="18">💼 Freelancing</text>
-      <text x="24" y="66" class="sans text" font-size="14" fill="#f0f6fc">SMM & VA services</text>
-      <text x="24" y="92" class="mono sub" font-size="12">Building portfolio & clients</text>
+      <text x="24" y="66" class="sans text" font-size="14" fill="#f0f6fc">SMM &amp; VA services</text>
+      <text x="24" y="92" class="mono sub" font-size="12">Building portfolio &amp; clients</text>
     </g>
   
   
