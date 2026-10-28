@@ -1,20 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" width="100%" height="100%">
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 660" width="100%" height="100%">
   <defs>
     <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#060b17" />
       <stop offset="50%" stop-color="#0a1428" />
       <stop offset="100%" stop-color="#060b17" />
-    </linearGradient>
-    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#93CCE9" />
-      <stop offset="50%" stop-color="#1683DF" />
-      <stop offset="100%" stop-color="#38bdf8" />
-    </linearGradient>
-    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="60%" stop-color="#f0f6fc" />
-      <stop offset="100%" stop-color="#93CCE9" />
     </linearGradient>
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="5" result="blur" />
@@ -29,19 +18,18 @@
     .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
     .title { font-weight: 700; fill: #f0f6fc; }
     .sub { fill: #93CCE9; }
-    .text { fill: #c9d1d9; font-size: 15px; }
   </style>
 
   <!-- Card Background -->
-  <rect width="1600" height="640" rx="14" fill="url(#cardBg)" stroke="#1683DF" stroke-width="2" opacity="0.95" />
-  <rect width="1600" height="640" rx="14" fill="url(#grid)" />
+  <rect width="1600" height="660" rx="14" fill="url(#cardBg)" stroke="#1683DF" stroke-width="2" opacity="0.95" />
+  <rect width="1600" height="660" rx="14" fill="url(#grid)" />
 
   <!-- Corner Brackets -->
-  <path d="M 12 40 V 12 H 40 M 1560 12 H 1588 V 40 M 12 600 V 628 H 40 M 1560 628 H 1588 V 600" fill="none" stroke="#1683DF" stroke-width="3.5" />
+  <path d="M 12 40 V 12 H 40 M 1560 12 H 1588 V 40 M 12 620 V 648 H 40 M 1560 648 H 1588 V 620" fill="none" stroke="#1683DF" stroke-width="3.5" />
 
-  <!-- Panel 1: Frontend (Top Left) -->
+  <!-- Panel 1: Frontend & Mobile (Top Left) -->
   <g transform="translate(36, 30)">
-    <rect width="740" height="270" rx="12" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
+    <rect width="740" height="280" rx="12" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
     <rect width="740" height="5" fill="#61DAFB" />
     <text x="30" y="38" class="sans title" font-size="20">⚛️ Frontend &amp; Mobile</text>
     <text x="30" y="60" class="mono sub" font-size="12">8 Technologies</text>
@@ -50,59 +38,115 @@
     <!-- Row 1 -->
     
     <g transform="translate(30, 94)">
-      <rect width="150" height="42" rx="6" fill="#060b17" stroke="#61DAFB" stroke-width="1.2" />
-      <text x="75" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">React</text>
+      <rect width="155" height="46" rx="8" fill="#060b17" stroke="#61DAFB" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <circle cx="0" cy="0" r="2.5" fill="#61DAFB"/>
+    <ellipse cx="0" cy="0" rx="9" ry="3.5" fill="none" stroke="#61DAFB" stroke-width="1.1"/>
+    <ellipse cx="0" cy="0" rx="9" ry="3.5" fill="none" stroke="#61DAFB" stroke-width="1.1" transform="rotate(60)"/>
+    <ellipse cx="0" cy="0" rx="9" ry="3.5" fill="none" stroke="#61DAFB" stroke-width="1.1" transform="rotate(120)"/>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">React</text>
     </g>
   
     
     <g transform="translate(200, 94)">
-      <rect width="150" height="42" rx="6" fill="#060b17" stroke="#f0f6fc" stroke-width="1.2" />
-      <text x="75" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">Next.js</text>
+      <rect width="155" height="46" rx="8" fill="#060b17" stroke="#f0f6fc" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <circle cx="0" cy="0" r="8.5" fill="#000000" stroke="#f0f6fc" stroke-width="0.8"/>
+    <path d="M-4,5 L-4,-5 L-2,-5 L3,3 L3,-5 L4.5,-5 L4.5,5 L2.5,5 L-2.5,-3 L-2.5,5 Z" fill="#ffffff"/>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">Next.js</text>
     </g>
   
     
     <g transform="translate(370, 94)">
-      <rect width="160" height="42" rx="6" fill="#060b17" stroke="#61DAFB" stroke-width="1.2" />
-      <text x="80" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">React Native</text>
+      <rect width="165" height="46" rx="8" fill="#060b17" stroke="#61DAFB" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <rect x="-6" y="-9" width="12" height="18" rx="2" fill="none" stroke="#61DAFB" stroke-width="1.2"/>
+    <circle cx="0" cy="0" r="1.5" fill="#61DAFB"/>
+    <ellipse cx="0" cy="0" rx="4.5" ry="1.8" fill="none" stroke="#61DAFB" stroke-width="0.8"/>
+    <circle cx="0" cy="6" r="0.8" fill="#61DAFB"/>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">React Native</text>
     </g>
   
     
     <g transform="translate(550, 94)">
-      <rect width="160" height="42" rx="6" fill="#060b17" stroke="#06B6D4" stroke-width="1.2" />
-      <text x="80" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">Tailwind CSS</text>
+      <rect width="160" height="46" rx="8" fill="#060b17" stroke="#06B6D4" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <path d="M-8,1 C-6.5,-3.5 -3,-3.5 -1,0 C1,3.5 4.5,3.5 6,1 C5,4 1.5,4 -0.5,1 C-2.5,-2.5 -5.5,-2.5 -8,1 Z M-4.5,-3.5 C-3,-7.5 0.5,-7.5 2.5,-4 C4.5,-0.5 8,-0.5 9.5,-3 C8.5,0 5,0 3,-3 C1,-6 -2,-6 -4.5,-3.5 Z" fill="#06B6D4"/>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">Tailwind CSS</text>
     </g>
   
 
     <!-- Row 2 -->
     
-    <g transform="translate(30, 156)">
-      <rect width="150" height="42" rx="6" fill="#060b17" stroke="#E34F26" stroke-width="1.2" />
-      <text x="75" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">HTML5</text>
+    <g transform="translate(30, 160)">
+      <rect width="155" height="46" rx="8" fill="#060b17" stroke="#E34F26" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <path d="M-7,-8 L7,-8 L5.8,6 L0,8 L-5.8,6 Z" fill="#E34F26"/>
+    <path d="M0,-6.5 L0,6.5 L4.5,5.2 L5.4,-6.5 Z" fill="#EF652A"/>
+    <path d="M-4,-4.5 H4 L3.7,-2 H-3.8 Z M-3.7,0 H3.5 L3.2,2.8 L0,3.7 L-3.2,2.8 L-3.4,1.4 H-1.7 L-1.6,2 L0,2.5 L1.6,2 L1.7,0.8 H-3.7 Z" fill="#FFFFFF"/>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">HTML5</text>
     </g>
   
     
-    <g transform="translate(200, 156)">
-      <rect width="150" height="42" rx="6" fill="#060b17" stroke="#1572B6" stroke-width="1.2" />
-      <text x="75" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">CSS3</text>
+    <g transform="translate(200, 160)">
+      <rect width="155" height="46" rx="8" fill="#060b17" stroke="#1572B6" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <path d="M-7,-8 L7,-8 L5.8,6 L0,8 L-5.8,6 Z" fill="#1572B6"/>
+    <path d="M0,-6.5 L0,6.5 L4.5,5.2 L5.4,-6.5 Z" fill="#33A9DC"/>
+    <path d="M-4,-4.5 H4 L3.7,-2 H-3.8 Z M-3.7,0 H3.5 L3.2,2.8 L0,3.7 L-3.2,2.8 L-3.4,1.4 H-1.7 L-1.6,2 L0,2.5 L1.6,2 L1.7,0.8 H-3.7 Z" fill="#FFFFFF"/>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">CSS3</text>
     </g>
   
     
-    <g transform="translate(370, 156)">
-      <rect width="160" height="42" rx="6" fill="#060b17" stroke="#7952B3" stroke-width="1.2" />
-      <text x="80" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">Bootstrap</text>
+    <g transform="translate(370, 160)">
+      <rect width="165" height="46" rx="8" fill="#060b17" stroke="#7952B3" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <rect x="-8" y="-8" width="16" height="16" rx="3.5" fill="#7952B3"/>
+    <text x="0" y="4" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="900" fill="#ffffff" text-anchor="middle">B</text>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">Bootstrap</text>
     </g>
   
     
-    <g transform="translate(550, 156)">
-      <rect width="160" height="42" rx="6" fill="#060b17" stroke="#96BF48" stroke-width="1.2" />
-      <text x="80" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">Shopify</text>
+    <g transform="translate(550, 160)">
+      <rect width="160" height="46" rx="8" fill="#060b17" stroke="#96BF48" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <path d="M-2.5,-4 C-2.5,-7 2.5,-7 2.5,-4 M-6,-2.5 L6,-2.5 L4.5,8 L-4.5,8 Z" fill="#96BF48" stroke="#96BF48" stroke-width="1.1"/>
+    <text x="0" y="4.5" font-family="sans-serif" font-size="7" font-weight="900" fill="#091428" text-anchor="middle">S</text>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">Shopify</text>
     </g>
   
+
+    <!-- Panel Footer Sub -->
+    <text x="30" y="248" class="mono" font-size="11" fill="#93CCE9">UI/UX · Responsive Layouts · Native Mobile Apps</text>
   </g>
 
-  <!-- Panel 2: Backend (Top Right) -->
+  <!-- Panel 2: Backend & Architecture (Top Right) -->
   <g transform="translate(824, 30)">
-    <rect width="740" height="270" rx="12" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
+    <rect width="740" height="280" rx="12" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
     <rect width="740" height="5" fill="#FF2D20" />
     <text x="30" y="38" class="sans title" font-size="20">⚙️ Backend &amp; Architecture</text>
     <text x="30" y="60" class="mono sub" font-size="12">7 Technologies</text>
@@ -111,53 +155,97 @@
     <!-- Row 1 -->
     
     <g transform="translate(30, 94)">
-      <rect width="150" height="42" rx="6" fill="#060b17" stroke="#FF2D20" stroke-width="1.2" />
-      <text x="75" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">Laravel</text>
+      <rect width="155" height="46" rx="8" fill="#060b17" stroke="#FF2D20" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <path d="M-7,-3.5 L0,-7 L7,-3.5 L0,0 Z M-7,-0.5 L0,3 L7,-0.5 M-7,2.5 L0,6 L7,2.5" fill="none" stroke="#FF2D20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">Laravel</text>
     </g>
   
     
     <g transform="translate(200, 94)">
-      <rect width="150" height="42" rx="6" fill="#060b17" stroke="#339933" stroke-width="1.2" />
-      <text x="75" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">Node.js</text>
+      <rect width="155" height="46" rx="8" fill="#060b17" stroke="#339933" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <polygon points="0,-8 7,-4 7,4 0,8 -7,4 -7,-4" fill="none" stroke="#339933" stroke-width="1.4"/>
+    <path d="M-3.5,0 L0,-3.5 L3.5,0 L0,3.5 Z" fill="#339933"/>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">Node.js</text>
     </g>
   
     
     <g transform="translate(370, 94)">
-      <rect width="160" height="42" rx="6" fill="#060b17" stroke="#f0f6fc" stroke-width="1.2" />
-      <text x="80" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">Express.js</text>
+      <rect width="165" height="46" rx="8" fill="#060b17" stroke="#f0f6fc" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <rect x="-8" y="-8" width="16" height="16" rx="3" fill="#000000" stroke="#f0f6fc" stroke-width="0.8"/>
+    <text x="0" y="4" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="800" fill="#f0f6fc" text-anchor="middle">ex</text>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">Express.js</text>
     </g>
   
     
     <g transform="translate(550, 94)">
-      <rect width="160" height="42" rx="6" fill="#060b17" stroke="#777BB4" stroke-width="1.2" />
-      <text x="80" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">PHP</text>
+      <rect width="160" height="46" rx="8" fill="#060b17" stroke="#777BB4" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <ellipse cx="0" cy="0" rx="9" ry="6" fill="none" stroke="#777BB4" stroke-width="1.3"/>
+    <text x="0" y="2.5" font-family="sans-serif" font-size="6.5" font-weight="800" fill="#777BB4" text-anchor="middle">PHP</text>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">PHP</text>
     </g>
   
 
     <!-- Row 2 -->
     
-    <g transform="translate(30, 156)">
-      <rect width="200" height="42" rx="6" fill="#060b17" stroke="#F7DF1E" stroke-width="1.2" />
-      <text x="100" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">JavaScript</text>
+    <g transform="translate(30, 160)">
+      <rect width="205" height="46" rx="8" fill="#060b17" stroke="#F7DF1E" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <rect x="-8" y="-8" width="16" height="16" rx="2" fill="#F7DF1E"/>
+    <text x="2.5" y="5" font-family="sans-serif" font-size="9" font-weight="900" fill="#000000" text-anchor="end">JS</text>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">JavaScript</text>
     </g>
   
     
-    <g transform="translate(250, 156)">
-      <rect width="200" height="42" rx="6" fill="#060b17" stroke="#3178C6" stroke-width="1.2" />
-      <text x="100" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">TypeScript</text>
+    <g transform="translate(250, 160)">
+      <rect width="205" height="46" rx="8" fill="#060b17" stroke="#3178C6" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <rect x="-8" y="-8" width="16" height="16" rx="2" fill="#3178C6"/>
+    <text x="0" y="4.5" font-family="sans-serif" font-size="9" font-weight="800" fill="#ffffff" text-anchor="middle">TS</text>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">TypeScript</text>
     </g>
   
     
-    <g transform="translate(470, 156)">
-      <rect width="240" height="42" rx="6" fill="#060b17" stroke="#239120" stroke-width="1.2" />
-      <text x="120" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">C#</text>
+    <g transform="translate(470, 160)">
+      <rect width="240" height="46" rx="8" fill="#060b17" stroke="#239120" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <polygon points="0,-8 7,-4 7,4 0,8 -7,4 -7,-4" fill="#239120"/>
+    <text x="0" y="3.5" font-family="sans-serif" font-size="8" font-weight="800" fill="#ffffff" text-anchor="middle">C#</text>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">C#</text>
     </g>
   
+
+    <!-- Panel Footer Sub -->
+    <text x="30" y="248" class="mono" font-size="11" fill="#93CCE9">RESTful APIs · Clean Architecture · Scalable Services</text>
   </g>
 
-  <!-- Panel 3: Database &amp; Cloud (Bottom Left) -->
-  <g transform="translate(36, 330)">
-    <rect width="740" height="270" rx="12" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
+  <!-- Panel 3: Database & Cloud (Bottom Left) -->
+  <g transform="translate(36, 340)">
+    <rect width="740" height="280" rx="12" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
     <rect width="740" height="5" fill="#3FCF8E" />
     <text x="30" y="38" class="sans title" font-size="20">🗄️ Database &amp; Cloud</text>
     <text x="30" y="60" class="mono sub" font-size="12">4 Technologies</text>
@@ -166,39 +254,63 @@
     <!-- Row 1 -->
     
     <g transform="translate(30, 94)">
-      <rect width="160" height="42" rx="6" fill="#060b17" stroke="#4479A1" stroke-width="1.2" />
-      <text x="80" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">MySQL</text>
+      <rect width="160" height="46" rx="8" fill="#060b17" stroke="#4479A1" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <ellipse cx="0" cy="-3.5" rx="6.5" ry="2.2" fill="none" stroke="#4479A1" stroke-width="1.2"/>
+    <path d="M-6.5,-3.5 V3.5 C-6.5,5.5 6.5,5.5 6.5,3.5 V-3.5 M-6.5,0 C-6.5,1.8 6.5,1.8 6.5,0" fill="none" stroke="#4479A1" stroke-width="1.2"/>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">MySQL</text>
     </g>
   
     
     <g transform="translate(210, 94)">
-      <rect width="160" height="42" rx="6" fill="#060b17" stroke="#3FCF8E" stroke-width="1.2" />
-      <text x="80" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">Supabase</text>
+      <rect width="160" height="46" rx="8" fill="#060b17" stroke="#3FCF8E" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <path d="M1.5,-8 L-6.5,1 L-1,1 L-2.5,8 L5.5,-1 L0,-1 Z" fill="#3FCF8E"/>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">Supabase</text>
     </g>
   
     
     <g transform="translate(390, 94)">
-      <rect width="150" height="42" rx="6" fill="#060b17" stroke="#f0f6fc" stroke-width="1.2" />
-      <text x="75" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">Vercel</text>
+      <rect width="150" height="46" rx="8" fill="#060b17" stroke="#f0f6fc" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <polygon points="0,-7 7,5 -7,5" fill="#f0f6fc"/>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">Vercel</text>
     </g>
   
     
     <g transform="translate(560, 94)">
-      <rect width="150" height="42" rx="6" fill="#060b17" stroke="#93CCE9" stroke-width="1.2" />
-      <text x="75" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">GitHub</text>
+      <rect width="150" height="46" rx="8" fill="#060b17" stroke="#93CCE9" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <circle cx="0" cy="0" r="7.5" fill="none" stroke="#93CCE9" stroke-width="1.2"/>
+    <path d="M-4.5,3.5 C-4.5,-1.5 -1.5,-3.5 0,-3.5 C1.5,-3.5 4.5,-1.5 4.5,3.5" fill="none" stroke="#93CCE9" stroke-width="1.1"/>
+    <circle cx="-2" cy="-0.5" r="0.9" fill="#93CCE9"/>
+    <circle cx="2" cy="-0.5" r="0.9" fill="#93CCE9"/>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">GitHub</text>
     </g>
   
 
-    <g transform="translate(30, 166)">
-      <rect width="680" height="66" rx="8" fill="#060b17" stroke="#1683DF" stroke-width="1" opacity="0.5" />
-      <text x="20" y="28" class="mono" font-size="13" fill="#93CCE9">ARCHITECTURE // RELIABILITY</text>
-      <text x="20" y="48" class="sans" font-size="13" fill="#c9d1d9">Relational schemas, realtime subscriptions, automated CI/CD deployments</text>
+    <g transform="translate(30, 168)">
+      <rect width="680" height="74" rx="8" fill="#060b17" stroke="#1683DF" stroke-width="1" opacity="0.6" />
+      <text x="20" y="30" class="mono" font-size="13" font-weight="700" fill="#93CCE9">ARCHITECTURE // RELIABILITY</text>
+      <text x="20" y="54" class="sans" font-size="13" fill="#c9d1d9">Relational schemas, realtime subscriptions, automated CI/CD deployments</text>
     </g>
   </g>
 
-  <!-- Panel 4: Tools &amp; AI (Bottom Right) -->
-  <g transform="translate(824, 330)">
-    <rect width="740" height="270" rx="12" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
+  <!-- Panel 4: Tools & AI Integration (Bottom Right) -->
+  <g transform="translate(824, 340)">
+    <rect width="740" height="280" rx="12" fill="#091428" stroke="#1683DF" stroke-width="1.5" />
     <rect width="740" height="5" fill="#4285F4" />
     <text x="30" y="38" class="sans title" font-size="20">🤖 Tools &amp; AI Integration</text>
     <text x="30" y="60" class="mono sub" font-size="12">6 Technologies</text>
@@ -207,47 +319,98 @@
     <!-- Row 1 -->
     
     <g transform="translate(30, 94)">
-      <rect width="150" height="42" rx="6" fill="#060b17" stroke="#F05032" stroke-width="1.2" />
-      <text x="75" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">Git</text>
+      <rect width="155" height="46" rx="8" fill="#060b17" stroke="#F05032" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <circle cx="-3.5" cy="-3.5" r="2" fill="#F05032"/>
+    <circle cx="-3.5" cy="3.5" r="2" fill="#F05032"/>
+    <circle cx="3.5" cy="0" r="2" fill="#F05032"/>
+    <path d="M-3.5,-3.5 V3.5 M-3.5,1 Q0,1 3.5,0" fill="none" stroke="#F05032" stroke-width="1.2"/>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">Git</text>
     </g>
   
     
     <g transform="translate(200, 94)">
-      <rect width="150" height="42" rx="6" fill="#060b17" stroke="#2496ED" stroke-width="1.2" />
-      <text x="75" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">Docker</text>
+      <rect width="155" height="46" rx="8" fill="#060b17" stroke="#2496ED" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <path d="M-7,1 H4 C6,1 7,0 7,-1 C6,-1 5,-2.5 4,-2.5 H-2.5 V-1 H-7 Z" fill="#2496ED"/>
+    <rect x="-5.5" y="-4.5" width="1.8" height="1.8" fill="#2496ED"/>
+    <rect x="-3" y="-4.5" width="1.8" height="1.8" fill="#2496ED"/>
+    <rect x="-0.5" y="-4.5" width="1.8" height="1.8" fill="#2496ED"/>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">Docker</text>
     </g>
   
     
     <g transform="translate(370, 94)">
-      <rect width="160" height="42" rx="6" fill="#060b17" stroke="#3776AB" stroke-width="1.2" />
-      <text x="80" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">Python</text>
+      <rect width="165" height="46" rx="8" fill="#060b17" stroke="#3776AB" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <path d="M-5,-3.5 C-5,-6 0,-6 0,-3.5 V-1 H3.5 C6,-1 6,3.5 3.5,3.5 H1.5" fill="none" stroke="#3776AB" stroke-width="1.3"/>
+    <path d="M5,3.5 C5,6 0,6 0,3.5 V1 H-3.5 C-6,1 -6,-3.5 -3.5,-3.5 H-1.5" fill="none" stroke="#FFD43B" stroke-width="1.3"/>
+    <circle cx="-2" cy="-4.2" r="0.7" fill="#3776AB"/>
+    <circle cx="2" cy="4.2" r="0.7" fill="#FFD43B"/>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">Python</text>
     </g>
   
     
     <g transform="translate(550, 94)">
-      <rect width="160" height="42" rx="6" fill="#060b17" stroke="#4285F4" stroke-width="1.2" />
-      <text x="80" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">Gemini API</text>
+      <rect width="160" height="46" rx="8" fill="#060b17" stroke="#4285F4" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <path d="M0,-7 Q0,0 7,0 Q0,0 0,7 Q0,0 -7,0 Q0,0 0,-7 Z" fill="#4285F4"/>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">Gemini API</text>
     </g>
   
 
     <!-- Row 2 -->
     
-    <g transform="translate(30, 156)">
-      <rect width="200" height="42" rx="6" fill="#060b17" stroke="#008CDD" stroke-width="1.2" />
-      <text x="100" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">Stripe</text>
+    <g transform="translate(30, 160)">
+      <rect width="205" height="46" rx="8" fill="#060b17" stroke="#008CDD" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <rect x="-7.5" y="-7.5" width="15" height="15" rx="3" fill="#008CDD"/>
+    <text x="0" y="4" font-family="sans-serif" font-size="11" font-weight="900" fill="#ffffff" text-anchor="middle">S</text>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">Stripe</text>
     </g>
   
     
-    <g transform="translate(250, 156)">
-      <rect width="200" height="42" rx="6" fill="#060b17" stroke="#0066FF" stroke-width="1.2" />
-      <text x="100" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">PayMongo</text>
+    <g transform="translate(250, 160)">
+      <rect width="205" height="46" rx="8" fill="#060b17" stroke="#0066FF" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <rect x="-7.5" y="-7.5" width="15" height="15" rx="3" fill="#0066FF"/>
+    <text x="0" y="4" font-family="sans-serif" font-size="10" font-weight="900" fill="#ffffff" text-anchor="middle">P</text>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">PayMongo</text>
     </g>
   
     
-    <g transform="translate(470, 156)">
-      <rect width="240" height="42" rx="6" fill="#060b17" stroke="#FF6B00" stroke-width="1.2" />
-      <text x="120" y="26" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="middle">Groq / LLaMA</text>
+    <g transform="translate(470, 160)">
+      <rect width="240" height="46" rx="8" fill="#060b17" stroke="#FF6B00" stroke-width="1.3" />
+      <g transform="translate(26, 23)">
+        
+    <rect x="-6.5" y="-6.5" width="13" height="13" rx="2" fill="none" stroke="#FF6B00" stroke-width="1.3"/>
+    <circle cx="0" cy="0" r="2.2" fill="#FF6B00"/>
+    <path d="M0,-8.5 V-6.5 M0,6.5 V8.5 M-8.5,0 H-6.5 M6.5,0 H8.5" stroke="#FF6B00" stroke-width="1.1"/>
+  
+      </g>
+      <text x="46" y="28" class="mono" font-size="13" font-weight="600" fill="#f0f6fc" text-anchor="start">Groq / LLaMA</text>
     </g>
   
+
+    <!-- Panel Footer Sub -->
+    <text x="30" y="248" class="mono" font-size="11" fill="#93CCE9">Version Control · Containerization · Machine Learning · Payment Gateways</text>
   </g>
 </svg>

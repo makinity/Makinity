@@ -50,7 +50,7 @@
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="images/04-tech-stack.svg" alt="Tech Stack" width="100%" />
+  <img src="images/04-tech-stack-matrix.svg" alt="Tech Stack" width="100%" />
 </p>
 
 <br/>
